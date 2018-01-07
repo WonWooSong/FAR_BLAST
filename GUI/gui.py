@@ -1,3 +1,8 @@
+#GUI
+
+__author__ = 'Won Woo Song'
+__version__ = '1.0'
+
 from tkinter import *
 import tkinter as tk
 from tkinter import messagebox
