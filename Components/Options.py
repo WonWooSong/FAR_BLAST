@@ -4,7 +4,7 @@ __author__ = 'Won Woo Song'
 __version__ = '1.0'
 
 class Options:
-    def __init__(self, evalue = 0, topForwardHits= 0, topFarHits= 0, coreNumber= 0):
+    def __init__(self, evalue = '', topForwardHits= '', topFarHits= '', coreNumber= ''):
         self.evalue = evalue
         self.topForwardHits = topForwardHits
         self.topFarHits = topFarHits
