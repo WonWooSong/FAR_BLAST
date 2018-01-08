@@ -1,0 +1,4332 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: nr.txt
+           2,682,748 sequences; 824,552,492 total letters
+
+
+
+Query= Q85FV4.1 RecName: Full=30S ribosomal protein S17, chloroplastic
+
+Length=82
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+KXB81217.1  30S ribosomal protein S17 [Varibaculum cambriense]        74.7    1e-17
+EKX97703.1  30S ribosomal protein S17 [Aggregatibacter actinomyce...  71.2    3e-16
+ERH28702.1  30S ribosomal protein S17 [Aggregatibacter sp. oral t...  71.2    3e-16
+EKY15342.1  30S ribosomal protein S17 [Actinomyces sp. oral taxon...  69.7    1e-15
+EKF02230.1  ribosomal protein S17 [Tolypothrix sp. PCC 7601]          68.9    2e-15
+EDS18492.1  30S ribosomal protein S17 [Erysipelatoclostridium ram...  68.6    3e-15
+EDN79909.1  30S ribosomal protein S17 [Actinomyces odontolyticus ...  68.6    3e-15
+EFF80019.1  30S ribosomal protein S17 [Actinomyces odontolyticus ...  68.6    3e-15
+ERH32790.1  30S ribosomal protein S17 [Actinomyces sp. oral taxon...  68.6    3e-15
+KXA12818.1  30S ribosomal protein S17 [Clostridium perfringens]       68.2    5e-15
+EKX97392.1  30S ribosomal protein S17 [Prevotella saccharolytica ...  67.8    6e-15
+EHM46446.1  30S ribosomal protein S17 [Hafnia alvei ATCC 51873]       67.8    6e-15
+OFS11714.1  30S ribosomal protein S17 [Hafnia sp. HMSC23F03]          67.8    6e-15
+OFT23526.1  30S ribosomal protein S17 [Arthrobacter sp. HMSC08H08]    68.2    6e-15
+OFT44686.1  30S ribosomal protein S17 [Arthrobacter sp. HMSC06H05]    68.2    6e-15
+KDR53271.1  30S ribosomal protein S17 [Prevotella loescheii DSM 1...  67.8    7e-15
+OFT92381.1  30S ribosomal protein S17 [Burkholderia sp. HMSC10F09]    67.8    8e-15
+KXA45265.1  30S ribosomal protein S17 [Prevotella corporis]           67.4    9e-15
+AEE45147.1  30S ribosomal protein S17 [Cellulomonas fimi ATCC 484]    67.4    1e-14
+OFT44504.1  30S ribosomal protein S17 [Brachybacterium sp. HMSC06...  67.8    1e-14
+ERI06776.1  30S ribosomal protein S17 [Aneurinibacillus aneurinil...  67.4    1e-14
+EFE21396.1  30S ribosomal protein S17 [Edwardsiella tarda ATCC 23...  67.0    1e-14
+EFW11560.1  30S ribosomal subunit protein S17 [Serratia symbiotic...  67.0    1e-14
+OFS84197.1  30S ribosomal protein S17 [Oligella sp. HMSC05A10]        67.4    1e-14
+OFV50726.1  30S ribosomal protein S17 [Oligella sp. HMSC09E12]        67.4    1e-14
+EHO46247.1  30S ribosomal protein S17 [Haemophilus sp. oral taxon...  67.0    1e-14
+AJX20891.1  30S ribosomal protein S17 [Burkholderia pseudomallei ...  67.0    1e-14
+OFT10353.1  30S ribosomal protein S17 [Klebsiella sp. HMSC25G12]      66.6    2e-14
+OFT12307.1  30S ribosomal protein S17 [Klebsiella sp. HMSC22F09]      66.6    2e-14
+OFU90121.1  30S ribosomal protein S17 [Proteus sp. HMSC10D02]         66.6    2e-14
+OFV45000.1  30S ribosomal protein S17 [Klebsiella sp. HMSC16C06]      66.6    2e-14
+OFV53809.1  30S ribosomal protein S17 [Klebsiella sp. HMSC09D12]      66.6    2e-14
+OFS23633.1  30S ribosomal protein S17 [Clostridium sp. HMSC19A10]     66.6    2e-14
+KXO17624.1  30S ribosomal protein S17 [Prevotella bivia]              66.6    2e-14
+KXU56891.1  30S ribosomal protein S17 [Prevotella bivia]              66.6    2e-14
+EFJ83073.1  30S ribosomal protein S17 [Escherichia coli MS 69-1]      66.6    2e-14
+EFJ87970.1  30S ribosomal protein S17 [Escherichia coli MS 84-1]      66.6    2e-14
+EFJ92931.1  30S ribosomal protein S17 [Escherichia coli MS 45-1]      66.6    2e-14
+EFJ97855.1  30S ribosomal protein S17 [Escherichia coli MS 115-1]     66.6    2e-14
+EFK75761.1  30S ribosomal protein S17 [Escherichia coli MS 78-1]      66.6    2e-14
+EFO58898.1  30S ribosomal protein S17 [Escherichia coli MS 145-7]     66.6    2e-14
+EFU35862.1  30S ribosomal protein S17 [Escherichia coli MS 85-1]      66.6    2e-14
+EFU44059.1  30S ribosomal protein S17 [Escherichia coli MS 110-3]     66.6    2e-14
+EFJ75360.1  30S ribosomal protein S17 [Escherichia coli MS 198-1]     66.6    2e-14
+EFK05039.1  30S ribosomal protein S17 [Escherichia coli MS 182-1]     66.6    2e-14
+EFU51724.1  30S ribosomal protein S17 [Escherichia coli MS 153-1]     66.6    2e-14
+EFU57864.1  30S ribosomal protein S17 [Escherichia coli MS 16-3]      66.6    2e-14
+EGU95709.1  30S ribosomal protein S17 [Escherichia coli MS 79-10]     66.6    2e-14
+ESA68246.1  30S ribosomal protein S17 [Escherichia coli 113303]       66.6    2e-14
+ESA69955.1  30S ribosomal protein S17 [Escherichia coli 113290]       66.6    2e-14
+ESA73256.1  30S ribosomal protein S17 [Escherichia coli 110957]       66.6    2e-14
+ESA79150.1  30S ribosomal protein S17 [Escherichia coli 907357]       66.6    2e-14
+ESA89186.1  30S ribosomal protein S17 [Escherichia coli 907713]       66.6    2e-14
+ESA91161.1  30S ribosomal protein S17 [Escherichia coli 907779]       66.6    2e-14
+ESA98762.1  30S ribosomal protein S17 [Escherichia coli 909945-2]     66.6    2e-14
+ESD01699.1  30S ribosomal protein S17 [Escherichia coli 907446]       66.6    2e-14
+ESD02246.1  30S ribosomal protein S17 [Escherichia coli 907391]       66.6    2e-14
+ESD10007.1  30S ribosomal protein S17 [Escherichia coli 907672]       66.6    2e-14
+ESD10320.1  30S ribosomal protein S17 [Escherichia coli 113302]       66.6    2e-14
+ESD17124.1  30S ribosomal protein S17 [Escherichia coli 907700]       66.6    2e-14
+ESD25756.1  30S ribosomal protein S17 [Escherichia coli 907710]       66.6    2e-14
+ESD27423.1  30S ribosomal protein S17 [Escherichia coli 907701]       66.6    2e-14
+ESD28996.1  30S ribosomal protein S17 [Escherichia coli 907715]       66.6    2e-14
+ESD43142.1  30S ribosomal protein S17 [Escherichia coli 907889]       66.6    2e-14
+ESD44317.1  30S ribosomal protein S17 [Escherichia coli 907892]       66.6    2e-14
+ESD45146.1  30S ribosomal protein S17 [Escherichia coli 908519]       66.6    2e-14
+ESD55408.1  30S ribosomal protein S17 [Escherichia coli 908521]       66.6    2e-14
+ESD58871.1  30S ribosomal protein S17 [Escherichia coli 908522]       66.6    2e-14
+ESD62027.1  30S ribosomal protein S17 [Escherichia coli 908524]       66.6    2e-14
+ESD73126.1  30S ribosomal protein S17 [Escherichia coli 908555]       66.6    2e-14
+ESD78495.1  30S ribosomal protein S17 [Escherichia coli 908525]       66.6    2e-14
+ESD78863.1  30S ribosomal protein S17 [Escherichia coli 908541]       66.6    2e-14
+ESD82718.1  30S ribosomal protein S17 [Escherichia coli 908573]       66.6    2e-14
+ESD90037.1  30S ribosomal protein S17 [Escherichia coli 908585]       66.6    2e-14
+ESD95526.1  30S ribosomal protein S17 [Escherichia coli 908616]       66.6    2e-14
+ESE04680.1  30S ribosomal protein S17 [Escherichia coli 908624]       66.6    2e-14
+ESE09633.1  30S ribosomal protein S17 [Escherichia coli 908658]       66.6    2e-14
+ESE11038.1  30S ribosomal protein S17 [Escherichia coli 908675]       66.6    2e-14
+ESE12051.1  30S ribosomal protein S17 [Escherichia coli 908632]       66.6    2e-14
+ESE23847.1  30S ribosomal protein S17 [Escherichia coli 908691]       66.6    2e-14
+ESE25169.1  30S ribosomal protein S17 [Escherichia coli 910096-2]     66.6    2e-14
+ESE38728.1  30S ribosomal protein S17 [Escherichia coli A25922R]      66.6    2e-14
+ESE39110.1  30S ribosomal protein S17 [Escherichia coli A35218R]      66.6    2e-14
+EST65874.1  30S ribosomal protein S17 [Escherichia coli P4-NR]        66.6    2e-14
+KXG98382.1  30S ribosomal protein S17 [Escherichia coli]              66.6    2e-14
+KXH00928.1  30S ribosomal protein S17 [Escherichia coli]              66.6    2e-14
+KXA07655.1  30S ribosomal protein S17 [Finegoldia magna]              66.2    2e-14
+EHB39965.1  30S ribosomal protein S17 [Salmonella enterica subsp....  66.2    2e-14
+EHY67767.1  30S ribosomal protein S17 [Salmonella enterica subsp....  66.2    2e-14
+EMR50409.1  30S ribosomal protein S17 [Salmonella enterica subsp....  66.2    2e-14
+EPI71280.1  30S ribosomal protein S17 [Salmonella enterica subsp....  66.2    2e-14
+EPI72733.1  30S ribosomal protein S17 [Salmonella enterica subsp....  66.2    2e-14
+EPI76841.1  30S ribosomal protein S17 [Salmonella enterica subsp....  66.2    2e-14
+EPI84988.1  30S ribosomal protein S17 [Salmonella enterica subsp....  66.2    2e-14
+EPI88391.1  30S ribosomal protein S17 [Salmonella enterica subsp....  66.2    2e-14
+EPI90880.1  30S ribosomal protein S17 [Salmonella enterica subsp....  66.2    2e-14
+EPJ00530.1  30S ribosomal protein S17 [Salmonella enterica subsp....  66.2    2e-14
+EPJ01429.1  30S ribosomal protein S17 [Salmonella enterica subsp....  66.2    2e-14
+EPJ03437.1  30S ribosomal protein S17 [Salmonella enterica subsp....  66.2    2e-14
+EPJ10067.1  30S ribosomal protein S17 [Salmonella enterica subsp....  66.2    2e-14
+ETA88091.1  30S ribosomal protein S17 [Salmonella enterica subsp....  66.2    2e-14
+EEX17904.1  30S ribosomal protein S17 [Prevotella veroralis F0319]    66.2    2e-14
+ERJ75657.1  30S ribosomal protein S17 [Prevotella sp. F0091]          66.2    2e-14
+KXB81423.1  30S ribosomal protein S17 [Prevotella amnii]              66.2    3e-14
+AEI75024.1  putative 30S ribosomal protein S17 [Candidatus Morane...  66.2    3e-14
+EHM50986.1  30S ribosomal protein S17 [Yokenella regensburgei ATC...  66.2    3e-14
+KXC01972.1  30S ribosomal protein S17 [Proteus mirabilis]             66.2    3e-14
+OFV14399.1  30S ribosomal protein S17 [Proteus sp. HMSC14B05]         66.2    3e-14
+KXB84121.1  30S ribosomal protein S17 [Prevotella sp. DNF00663]       66.2    3e-14
+OFS96586.1  30S ribosomal protein S17 [Serratia sp. HMSC15F11]        65.9    3e-14
+ERJ79941.1  30S ribosomal protein S17 [Prevotella disiens JCM 633...  65.9    4e-14
+KRT35820.1  30S ribosomal protein S17 [Acetomicrobium hydrogenifo...  66.2    4e-14
+EEB35318.1  30S ribosomal protein S17 [Anaerococcus hydrogenalis ...  65.5    4e-14
+AKU22857.1  30S ribosomal protein S17 [Massilia sp. NR 4-1]           65.9    5e-14
+WP_050409762.1  30S ribosomal protein S17 [Massilia sp. NR 4-1]       65.9    5e-14
+ERH32946.1  30S ribosomal protein S17 [Actinomyces sp. oral taxon...  65.9    5e-14
+EFG81099.1  30S ribosomal protein S17 [Corynebacterium ammoniagen...  65.9    5e-14
+EDS74523.1  30S ribosomal protein S17 [[Clostridium] spiroforme D...  65.5    5e-14
+OFT31108.1  30S ribosomal protein S17 [Corynebacterium sp. HMSC08...  65.5    6e-14
+EFE06516.1  30S ribosomal protein S17 [Citrobacter youngae ATCC 2...  65.5    6e-14
+EPF13268.1  30S ribosomal protein S17 [Cedecea davisae DSM 4568]      65.5    6e-14
+KWZ90417.1  30S ribosomal protein S17 [Citrobacter freundii]          65.5    6e-14
+KXA03586.1  30S ribosomal protein S17 [Citrobacter koseri]            65.5    6e-14
+KXA04525.1  30S ribosomal protein S17 [Citrobacter koseri]            65.5    6e-14
+KXB46378.1  30S ribosomal protein S17 [Citrobacter koseri]            65.5    6e-14
+OFV19709.1  30S ribosomal protein S17 [Salmonella sp. HMSC13B08]      65.5    6e-14
+OPX47783.1  30S ribosomal protein S17 [Citrobacter freundii]          65.5    6e-14
+EKY27803.1  30S ribosomal protein S17 [Clostridium celatum DSM 1785]  65.1    8e-14
+EGF63608.1  30S ribosomal protein S17 [Klebsiella sp. MS 92-3]        65.1    8e-14
+ESB01064.1  30S ribosomal protein S17 [Klebsiella pneumoniae 909957]  65.1    8e-14
+KXA26477.1  30S ribosomal protein S17 [Klebsiella pneumoniae]         65.1    8e-14
+OFV34817.1  30S ribosomal protein S17 [Klebsiella sp. HMSC16A12]      65.1    8e-14
+EEF93894.1  30S ribosomal protein S17 [Catenibacterium mitsuokai ...  65.1    9e-14
+EEB47884.1  30S ribosomal protein S17 [Providencia alcalifaciens ...  64.7    9e-14
+EFB70526.1  30S ribosomal protein S17 [Providencia rustigianii DS...  64.7    9e-14
+EFB32888.1  30S ribosomal protein S17 [Prevotella oris F0302]         65.1    9e-14
+EEX71900.1  30S ribosomal protein S17 [Alloprevotella tannerae AT...  64.7    9e-14
+OFS07597.1  30S ribosomal protein S17 [Kytococcus sp. HMSC28H12]      65.1    9e-14
+EDU57762.1  30S ribosomal protein S17 [Providencia stuartii ATCC ...  64.7    9e-14
+EFE51281.1  30S ribosomal protein S17 [Providencia rettgeri DSM 1...  64.7    9e-14
+KXU48635.1  30S ribosomal protein S17 [Candidatus Stoquefichus sp...  64.7    1e-13
+OFU97014.1  30S ribosomal protein S17 [Morganella sp. HMSC11D09]      64.7    1e-13
+EKX87923.1  30S ribosomal protein S17 [Prevotella sp. oral taxon ...  64.7    1e-13
+EFB34427.1  30S ribosomal protein S17 [Prevotella copri DSM 18205]    64.7    1e-13
+OFU69389.1  30S ribosomal protein S17 [Enterobacter sp. HMSC16D10]    64.3    1e-13
+EHJ39980.1  30S ribosomal protein S17 [Prevotella stercorea DSM 1...  64.3    2e-13
+OFS14635.1  30S ribosomal protein S17 [Micrococcus sp. HMSC31B01]     64.3    2e-13
+OFT18125.1  30S ribosomal protein S17 [Micrococcus sp. HMSC30C05]     64.3    2e-13
+KXB49614.1  30S ribosomal protein S17 [Corynebacterium kroppenste...  64.3    2e-13
+KXB38868.1  30S ribosomal protein S17 [Bacteroidales bacterium KA...  63.9    2e-13
+EFC53897.1  30S ribosomal protein S17 [Enterobacter cancerogenus ...  63.9    2e-13
+KWZ95713.1  30S ribosomal protein S17 [Anaerococcus hydrogenalis]     63.9    2e-13
+OFT38276.1  30S ribosomal protein S17 [Actinomyces sp. HMSC08A01]     63.9    2e-13
+ERK71993.1  30S ribosomal protein S17 [Leifsonia aquatica ATCC 14...  63.9    3e-13
+EGF74901.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EGE66968.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EGE67013.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EGE74452.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFS34593.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFS39054.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFS41325.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFS42357.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFS47284.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFS48090.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFS50002.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFS54279.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFS55724.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFS57637.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFS61127.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFS62599.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFS66087.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFS67841.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFS70316.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFS75672.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFS78172.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFS81492.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFS83438.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFS89610.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFS94029.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFT01299.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFT01874.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFT04960.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFT07633.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFT13982.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFT17120.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFT19615.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFT23832.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFT28988.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFT30154.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFT32769.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFT49223.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFT51817.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFT55185.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFT58813.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFT61906.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFT68724.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFT69952.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFT72595.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFT78040.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EFT81199.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EGE90663.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EGE96017.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EGE96063.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EGE98084.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EGE98249.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EGE98536.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EGF65712.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EGF69124.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+EGF69908.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.9    3e-13
+OFT20053.1  30S ribosomal protein S17 [Dermabacter sp. HMSC08H10]     63.9    3e-13
+OFT47617.1  30S ribosomal protein S17 [Dermabacter sp. HMSC06F07]     63.9    3e-13
+EHY32482.1  30S ribosomal protein S17 [Sutterella parvirubra YIT ...  63.5    3e-13
+EGE68489.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.5    3e-13
+EFS88007.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.5    3e-13
+EFT09185.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.5    3e-13
+EFT26353.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.5    3e-13
+EFT62423.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.5    3e-13
+EFT65658.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.5    3e-13
+EFT75952.1  30S ribosomal protein S17 [Propionibacterium acnes HL...  63.5    3e-13
+OFT31684.1  30S ribosomal protein S17 [Corynebacterium sp. HMSC08...  63.9    3e-13
+OFT68833.1  30S ribosomal protein S17 [Corynebacterium sp. HMSC05...  63.9    3e-13
+OFU57459.1  30S ribosomal protein S17 [Corynebacterium sp. HMSC11...  63.9    3e-13
+ERH17589.1  30S ribosomal protein S17 [Actinomyces graevenitzii F...  63.5    3e-13
+EDN83664.1  30S ribosomal protein S17 [Bifidobacterium adolescent...  63.2    4e-13
+EEB20881.1  30S ribosomal protein S17 [Bifidobacterium catenulatu...  63.2    4e-13
+EEG71734.1  30S ribosomal protein S17 [Bifidobacterium pseudocate...  63.2    4e-13
+OFT57312.1  30S ribosomal protein S17 [Corynebacterium sp. HMSC05...  63.5    4e-13
+KWZ73213.1  30S ribosomal protein S17 [Actinomyces neuii]             63.5    4e-13
+OFT55730.1  30S ribosomal protein S17 [Actinomyces sp. HMSC06A08]     63.5    4e-13
+EEB22780.1  30S ribosomal protein S17 [Bacteroides dorei DSM 17855]   63.2    4e-13
+EEF89617.1  30S ribosomal protein S17 [Bacteroides cellulosilytic...  63.2    5e-13
+KXT45749.1  30S ribosomal protein S17 [Bacteroides intestinalis]      63.2    5e-13
+ANY19804.1  30S ribosomal protein S17 [Altererythrobacter dongtan...  63.2    5e-13
+KXA65787.1  30S ribosomal protein S17 [Cutibacterium avidum]          63.2    5e-13
+OFU52637.1  30S ribosomal protein S17 [Corynebacterium sp. HMSC11...  63.2    6e-13
+OFS28507.1  30S ribosomal protein S17 [Achromobacter sp. HMSC18C08]   63.2    6e-13
+OFU62310.1  30S ribosomal protein S17 [Achromobacter sp. HMSC15D03]   63.2    6e-13
+AJA84621.1  30S ribosomal protein S17 [Bacillus anthracis]            62.8    6e-13
+AJF87970.1  30S ribosomal protein S17 [Bacillus anthracis]            62.8    6e-13
+EEF68474.1  30S ribosomal protein S17 [Holdemania filiformis DSM ...  62.8    6e-13
+OFU80861.1  30S ribosomal protein S17 [Staphylococcus sp. HMSC10C03]  62.8    6e-13
+OFV08031.1  30S ribosomal protein S17 [Staphylococcus sp. HMSC12H08]  62.8    6e-13
+OFT69129.1  30S ribosomal protein S17 [Corynebacterium sp. HMSC14...  62.8    6e-13
+OFU55918.1  30S ribosomal protein S17 [Corynebacterium sp. HMSC11...  62.8    6e-13
+OFU62161.1  30S ribosomal protein S17 [Corynebacterium sp. HMSC14...  62.8    6e-13
+EEC52587.1  30S ribosomal protein S17 [Bacteroides eggerthii DSM ...  62.8    6e-13
+EFS73744.1  30S ribosomal protein S17 [[Propionibacterium] humeru...  62.8    7e-13
+EFS93400.1  30S ribosomal protein S17 [[Propionibacterium] humeru...  62.8    7e-13
+EFT14644.1  30S ribosomal protein S17 [[Propionibacterium] humeru...  62.8    7e-13
+EGF57261.1  30S ribosomal protein S17 [Bacteroides fluxus YIT 12057]  62.8    7e-13
+ERI84493.1  30S ribosomal protein S17 [Bacteroides pyogenes F0041]    62.8    7e-13
+KXT37065.1  30S ribosomal protein S17 [Bacteroides thetaiotaomicron]  62.8    7e-13
+ERI95356.1  30S ribosomal protein S17 [Clostridiales bacterium or...  62.4    8e-13
+KXA47254.1  30S ribosomal protein S17 [Staphylococcus simulans]       62.8    8e-13
+AER40670.1  30S ribosomal protein S17 [Blattabacterium sp. (Masto...  62.8    8e-13
+EDV06686.1  30S ribosomal protein S17 [Bacteroides intestinalis D...  62.4    9e-13
+KXT31598.1  30S ribosomal protein S17 [Bacteroides uniformis]         62.4    9e-13
+OFT90968.1  30S ribosomal protein S17 [Corynebacterium sp. HMSC28...  62.4    1e-12
+KXU40565.1  hypothetical protein HMPREF2533_04403 [Bacteroides fr...  62.4    1e-12
+KXU40641.1  30S ribosomal protein S17 [Bacteroides cellulosilyticus]  62.4    1e-12
+EGJ60176.1  30S ribosomal protein S17 [Acinetobacter baumannii 60...  62.4    1e-12
+EGJ64477.1  30S ribosomal protein S17 [Acinetobacter baumannii 60...  62.4    1e-12
+EGJ66735.1  30S ribosomal protein S17 [Acinetobacter baumannii 60...  62.4    1e-12
+EDY97341.1  30S ribosomal protein S17 [Bacteroides plebeius DSM 1...  62.4    1e-12
+OFS81267.1  30S ribosomal protein S17 [Staphylococcus sp. HMSC06C11]  62.0    1e-12
+EPI41014.1  30S ribosomal protein S17 [Gardnerella vaginalis JCP8...  62.0    1e-12
+EPI41511.1  30S ribosomal protein S17 [Gardnerella vaginalis JCP8...  62.0    1e-12
+EPI45439.1  30S ribosomal protein S17 [Gardnerella vaginalis JCP8...  62.0    1e-12
+EPI45552.1  30S ribosomal protein S17 [Gardnerella vaginalis JCP8...  62.0    1e-12
+EPI45600.1  30S ribosomal protein S17 [Gardnerella vaginalis JCP8...  62.0    1e-12
+EPI49739.1  30S ribosomal protein S17 [Gardnerella vaginalis JCP8...  62.0    1e-12
+EPI50256.1  30S ribosomal protein S17 [Gardnerella vaginalis JCP7...  62.0    1e-12
+EPI53551.1  30S ribosomal protein S17 [Gardnerella vaginalis JCP7...  62.0    1e-12
+EPI53994.1  30S ribosomal protein S17 [Gardnerella vaginalis JCP7...  62.0    1e-12
+EPI54672.1  30S ribosomal protein S17 [Gardnerella vaginalis JCP7...  62.0    1e-12
+EPI58572.1  30S ribosomal protein S17 [Gardnerella vaginalis JCP8...  62.0    1e-12
+EPI58764.1  30S ribosomal protein S17 [Gardnerella vaginalis JCP8...  62.0    1e-12
+KXA15693.1  30S ribosomal protein S17 [Gardnerella vaginalis]         62.0    1e-12
+KXA18317.1  30S ribosomal protein S17 [Gardnerella vaginalis]         62.0    1e-12
+KXA20586.1  30S ribosomal protein S17 [Gardnerella vaginalis]         62.0    1e-12
+OFS81558.1  30S ribosomal protein S17 [Rothia sp. HMSC08A08]          62.4    1e-12
+KWZ86421.1  30S ribosomal protein S17 [Bacillus coagulans]            62.4    1e-12
+ERT67192.1  30S ribosomal protein S17 [Rothia aeria F0184]            62.0    1e-12
+AJF87253.1  30S ribosomal protein S17 [Bacillus atrophaeus]           62.0    1e-12
+EDO13272.1  30S ribosomal protein S17 [Bacteroides ovatus ATCC 8483]  62.0    1e-12
+EEX47491.1  30S ribosomal protein S17 [Bacteroides finegoldii DSM...  62.0    1e-12
+KXT46630.1  30S ribosomal protein S17 [Bacteroides ovatus]            62.0    1e-12
+OFT77526.1  30S ribosomal protein S17 [Corynebacterium sp. HMSC30...  62.4    1e-12
+EDU39046.1  30S ribosomal protein S17 [Clostridium sporogenes ATC...  61.6    1e-12
+EJU82130.1  30S ribosomal protein S17 [Staphylococcus aureus subs...  62.0    1e-12
+EES96396.1  30S ribosomal protein S17 [Staphylococcus aureus subs...  62.0    1e-12
+EFW32080.1  30S ribosomal protein S17 [Staphylococcus aureus subs...  62.0    1e-12
+EFW35272.1  30S ribosomal protein S17 [Staphylococcus aureus subs...  62.0    1e-12
+KAJ48554.1  30S ribosomal protein S17 [Staphylococcus aureus 880]     62.0    1e-12
+KIE15976.1  30S ribosomal protein S17 [Staphylococcus aureus 917]     62.0    1e-12
+KXA35218.1  30S ribosomal protein S17 [Staphylococcus aureus]         62.0    1e-12
+EDM21849.1  30S ribosomal protein S17 [Bacteroides caccae ATCC 43...  62.0    1e-12
+EJV54249.1  30S ribosomal protein S17 [Enterococcus faecium TX133...  62.0    1e-12
+EJX40479.1  30S ribosomal protein S17 [Enterococcus faecium V689]     62.0    1e-12
+EJX41510.1  30S ribosomal protein S17 [Enterococcus faecium S447]     62.0    1e-12
+EJX43155.1  30S ribosomal protein S17 [Enterococcus faecium R501]     62.0    1e-12
+EJX51738.1  30S ribosomal protein S17 [Enterococcus faecium R499]     62.0    1e-12
+EJX52956.1  30S ribosomal protein S17 [Enterococcus faecium R496]     62.0    1e-12
+EJX54799.1  30S ribosomal protein S17 [Enterococcus faecium R497]     62.0    1e-12
+EJX56157.1  30S ribosomal protein S17 [Enterococcus faecium R494]     62.0    1e-12
+EJX58951.1  30S ribosomal protein S17 [Enterococcus faecium R446]     62.0    1e-12
+EJX61492.1  30S ribosomal protein S17 [Enterococcus faecium P1190]    62.0    1e-12
+EJX66585.1  30S ribosomal protein S17 [Enterococcus faecium P1140]    62.0    1e-12
+EJX67451.1  30S ribosomal protein S17 [Enterococcus faecium P1986]    62.0    1e-12
+EJX74810.1  30S ribosomal protein S17 [Enterococcus faecium P1137]    62.0    1e-12
+EJX79340.1  30S ribosomal protein S17 [Enterococcus faecium P1139]    62.0    1e-12
+EJX81426.1  30S ribosomal protein S17 [Enterococcus faecium ERV99]    62.0    1e-12
+EJX84983.1  30S ribosomal protein S17 [Enterococcus faecium ERV69]    62.0    1e-12
+EJX86660.1  30S ribosomal protein S17 [Enterococcus faecium P1123]    62.0    1e-12
+EJX90461.1  30S ribosomal protein S17 [Enterococcus faecium ERV38]    62.0    1e-12
+EJX94189.1  30S ribosomal protein S17 [Enterococcus faecium ERV26]    62.0    1e-12
+EJX95592.1  30S ribosomal protein S17 [Enterococcus faecium ERV168]   62.0    1e-12
+EJY01592.1  30S ribosomal protein S17 [Enterococcus faecium ERV165]   62.0    1e-12
+EJY02031.1  30S ribosomal protein S17 [Enterococcus faecium ERV161]   62.0    1e-12
+EJY05543.1  30S ribosomal protein S17 [Enterococcus faecium ERV102]   62.0    1e-12
+EJY10604.1  30S ribosomal protein S17 [Enterococcus faecium ERV1]     62.0    1e-12
+EJY12490.1  30S ribosomal protein S17 [Enterococcus faecium E422]     62.0    1e-12
+EJY13658.1  30S ribosomal protein S17 [Enterococcus faecium E417]     62.0    1e-12
+EJY16708.1  30S ribosomal protein S17 [Enterococcus faecium C1904]    62.0    1e-12
+EJY17321.1  30S ribosomal protein S17 [Enterococcus faecium C621]     62.0    1e-12
+EJY21619.1  30S ribosomal protein S17 [Enterococcus faecium C497]     62.0    1e-12
+EJY25651.1  30S ribosomal protein S17 [Enterococcus faecium 515]      62.0    1e-12
+EJY30524.1  30S ribosomal protein S17 [Enterococcus faecium 514]      62.0    1e-12
+EJY32301.1  30S ribosomal protein S17 [Enterococcus faecium 513]      62.0    1e-12
+EJY37581.1  30S ribosomal protein S17 [Enterococcus faecium 511]      62.0    1e-12
+EJY39019.1  30S ribosomal protein S17 [Enterococcus faecium 510]      62.0    1e-12
+EJY42129.1  30S ribosomal protein S17 [Enterococcus faecium 509]      62.0    1e-12
+EJY46457.1  30S ribosomal protein S17 [Enterococcus faecium 505]      62.0    1e-12
+EJY48527.1  30S ribosomal protein S17 [Enterococcus faecium 506]      62.0    1e-12
+EJY49985.1  30S ribosomal protein S17 [Enterococcus faecium 504]      62.0    1e-12
+EJY53481.1  30S ribosomal protein S17 [Enterococcus faecium 503]      62.0    1e-12
+EFR69595.1  30S ribosomal protein S17 [Enterococcus faecium TX013...  62.0    1e-12
+EFR72780.1  30S ribosomal protein S17 [Enterococcus faecium TX0133B]  62.0    1e-12
+EFR75751.1  30S ribosomal protein S17 [Enterococcus faecium TX0133A]  62.0    1e-12
+EFR77201.1  30S ribosomal protein S17 [Enterococcus faecium TX0133C]  62.0    1e-12
+EFS07574.1  30S ribosomal protein S17 [Enterococcus faecium TX013...  62.0    1e-12
+EFS10158.1  30S ribosomal protein S17 [Enterococcus faecium TX0082]   62.0    1e-12
+EPI12862.1  30S ribosomal protein S17 [Enterococcus faecium SD3B-2]   62.0    1e-12
+EPI13792.1  30S ribosomal protein S17 [Enterococcus faecium SD2A-2]   62.0    1e-12
+EPI15718.1  30S ribosomal protein S17 [Enterococcus faecium SD1C-2]   62.0    1e-12
+EPI18927.1  30S ribosomal protein S17 [Enterococcus faecium OC2A-1]   62.0    1e-12
+EPI24150.1  30S ribosomal protein S17 [Enterococcus faecium LA4B-2]   62.0    1e-12
+KXA12191.1  30S ribosomal protein S17 [Enterococcus faecium]          62.0    1e-12
+KXA37843.1  30S ribosomal protein S17 [Staphylococcus lugdunensis]    62.0    1e-12
+ERI63899.1  30S ribosomal protein S17 [Capnocytophaga sp. oral ta...  61.6    1e-12
+ERJ83084.1  30S ribosomal protein S17 [Peptostreptococcaceae bact...  61.6    1e-12
+BAH88780.1  30S ribosomal protein S17 [Streptococcus mutans NN2025]   61.6    2e-12
+EGF51160.1  30S ribosomal protein S17 [Bacteroides clarus YIT 12056]  61.6    2e-12
+EDS14347.1  30S ribosomal protein S17 [Bacteroides stercoris ATCC...  61.6    2e-12
+EFW26813.1  30S ribosomal protein S17 [Actinomyces sp. oral taxon...  62.0    2e-12
+OFT39469.1  30S ribosomal protein S17 [Actinomyces sp. HMSC08A09]     62.0    2e-12
+EFA22779.1  30S ribosomal protein S17 [Bifidobacterium gallicum D...  61.6    2e-12
+OFS67229.1  30S ribosomal protein S17 [Trueperella sp. HMSC08H06]     61.6    2e-12
+OFS76552.1  30S ribosomal protein S17 [Trueperella sp. HMSC08B05]     61.6    2e-12
+EDT48340.1  30S ribosomal protein S17 [Streptococcus infantarius ...  61.6    2e-12
+KXU59246.1  30S ribosomal protein S17 [Streptococcus salivarius]      61.6    2e-12
+OFU88116.1  30S ribosomal protein S17 [Streptococcus sp. HMSC10E12]   61.6    2e-12
+OFT80911.1  30S ribosomal protein S17 [Corynebacterium sp. HMSC29...  62.0    2e-12
+OFT33220.1  30S ribosomal protein S17 [Corynebacterium sp. HMSC08...  62.0    2e-12
+EGG52446.1  30S ribosomal protein S17 [Paraprevotella xylaniphila...  61.6    2e-12
+AJD34858.1  30S ribosomal protein S17 [Bacillus subtilis subsp. s...  61.6    2e-12
+OFT60090.1  30S ribosomal protein S17 [Corynebacterium sp. HMSC05...  61.6    2e-12
+EEZ78448.1  30S ribosomal protein S17 [Actinomyces sp. oral taxon...  61.6    2e-12
+EFY06026.1  30S ribosomal protein S17 [Succinatimonas hippei YIT ...  61.6    2e-12
+EHL07883.1  30S ribosomal protein S17 [Desulfitobacterium hafnien...  61.2    2e-12
+EFU21843.1  30S ribosomal protein S17 [Streptococcus anginosus F0...  61.2    2e-12
+EHG98320.1  30S ribosomal protein S17 [Paraprevotella clara YIT 1...  61.2    2e-12
+ERH15667.1  30S ribosomal protein S17 [Actinomyces johnsonii F0510]   61.6    2e-12
+ERH22752.1  30S ribosomal protein S17 [Actinomyces johnsonii F0542]   61.6    2e-12
+ANI93162.1  30S ribosomal protein S17 [Dietzia timorensis]            61.2    2e-12
+ERJ76744.1  30S ribosomal protein S17 [Streptococcus sobrinus W1703]  61.2    3e-12
+EDV01637.1  30S ribosomal protein S17 [Bacteroides coprocola DSM ...  61.2    3e-12
+ERH19168.1  30S ribosomal protein S17 [Actinobaculum sp. oral tax...  61.2    3e-12
+AIT87239.1  30S ribosomal protein S17 [Mycobacterium intracellula...  61.6    3e-12
+AIR29614.1  30S ribosomal protein S17 [Mycobacterium kansasii 824]    62.0    3e-12
+AIR20037.1  30S ribosomal protein S17 [Mycobacterium kansasii 662]    62.0    3e-12
+EGF55163.1  30S ribosomal protein S17 [Actinomyces sp. oral taxon...  61.2    3e-12
+OFS87231.1  30S ribosomal protein S17 [Pseudomonas sp. HMSC16B01]     60.8    3e-12
+OFU98572.1  30S ribosomal protein S17 [Pseudomonas sp. HMSC11A05]     60.8    3e-12
+EHI76017.1  30S ribosomal protein S17 [Streptococcus sp. oral tax...  60.8    3e-12
+ELU55003.1  30S ribosomal protein S17 [Streptococcus pneumoniae P...  60.8    3e-12
+ELU56022.1  30S ribosomal protein S17 [Streptococcus pneumoniae P...  60.8    3e-12
+ELU60934.1  30S ribosomal protein S17 [Streptococcus pneumoniae P...  60.8    3e-12
+ELU63422.1  30S ribosomal protein S17 [Streptococcus pneumoniae P...  60.8    3e-12
+ELU65272.1  30S ribosomal protein S17 [Streptococcus pneumoniae P...  60.8    3e-12
+ELU68219.1  30S ribosomal protein S17 [Streptococcus pneumoniae P...  60.8    3e-12
+ELU69809.1  30S ribosomal protein S17 [Streptococcus pneumoniae P...  60.8    3e-12
+ELU73704.1  30S ribosomal protein S17 [Streptococcus pneumoniae P...  60.8    3e-12
+ELU75670.1  30S ribosomal protein S17 [Streptococcus pneumoniae P...  60.8    3e-12
+ELU76406.1  30S ribosomal protein S17 [Streptococcus pneumoniae P...  60.8    3e-12
+ELU78509.1  30S ribosomal protein S17 [Streptococcus pneumoniae P...  60.8    3e-12
+ELU81922.1  30S ribosomal protein S17 [Streptococcus pneumoniae P...  60.8    3e-12
+ELU85658.1  30S ribosomal protein S17 [Streptococcus pneumoniae P...  60.8    3e-12
+ELU88566.1  30S ribosomal protein S17 [Streptococcus pneumoniae P...  60.8    3e-12
+ELU88676.1  30S ribosomal protein S17 [Streptococcus pneumoniae P...  60.8    3e-12
+ELU89329.1  30S ribosomal protein S17 [Streptococcus pneumoniae P...  60.8    3e-12
+ELU93853.1  30S ribosomal protein S17 [Streptococcus pneumoniae P...  60.8    3e-12
+EMQ93191.1  30S ribosomal protein S17 [Streptococcus pneumoniae P...  60.8    3e-12
+EMY86371.1  30S ribosomal protein S17 [Streptococcus pneumoniae P...  60.8    3e-12
+EMY86730.1  30S ribosomal protein S17 [Streptococcus pneumoniae P...  60.8    3e-12
+EMY89519.1  30S ribosomal protein S17 [Streptococcus pneumoniae P...  60.8    3e-12
+EMY90086.1  30S ribosomal protein S17 [Streptococcus pneumoniae P...  60.8    3e-12
+KXA59888.1  30S ribosomal protein S17 [Streptococcus mitis]           60.8    3e-12
+OFU72323.1  30S ribosomal protein S17 [Streptococcus sp. HMSC10A01]   60.8    3e-12
+OFV06545.1  30S ribosomal protein S17 [Staphylococcus sp. HMSC13A10]  60.8    3e-12
+OFS99346.1  30S ribosomal protein S17 [Granulicatella sp. HMSC31F03]  60.8    3e-12
+OFT78427.1  30S ribosomal protein S17 [Granulicatella sp. HMSC30F09]  60.8    3e-12
+OFU77950.1  30S ribosomal protein S17 [Staphylococcus sp. HMSC10B09]  60.8    3e-12
+OFV24179.1  30S ribosomal protein S17 [Staphylococcus sp. HMSC14C01]  60.8    3e-12
+EDT44539.1  30S ribosomal protein S17 [Bifidobacterium dentium AT...  60.8    4e-12
+ERH29870.1  30S ribosomal protein S17 [Alloscardovia omnicolens F...  60.8    4e-12
+KWZ74026.1  30S ribosomal protein S17 [Alloscardovia omnicolens]      60.8    4e-12
+AIR58357.1  30S ribosomal protein S17 [Mycobacterium avium subsp....  61.6    4e-12
+AIR25545.1  30S ribosomal protein S17 [Mycobacterium avium subsp....  61.6    4e-12
+AIV26733.1  30S ribosomal protein S17 [Mycobacterium avium subsp....  61.6    4e-12
+EKY03248.1  30S ribosomal protein S17 [Porphyromonas catoniae F0037]  60.8    4e-12
+ERJ65748.1  30S ribosomal protein S17 [Porphyromonas gingivalis F...  60.8    4e-12
+ERJ68872.1  30S ribosomal protein S17 [Porphyromonas gingivalis F...  60.8    4e-12
+ERJ70380.1  30S ribosomal protein S17 [Porphyromonas gingivalis F...  60.8    4e-12
+ERJ82622.1  30S ribosomal protein S17 [Porphyromonas gingivalis F...  60.8    4e-12
+ERJ88816.1  30S ribosomal protein S17 [Porphyromonas gingivalis F...  60.8    4e-12
+ERJ89983.1  30S ribosomal protein S17 [Porphyromonas gingivalis W...  60.8    4e-12
+EDP11997.1  30S ribosomal protein S17 [[Eubacterium] dolichum DSM...  60.8    4e-12
+AFC65455.1  SSU ribosomal protein (S17p) RpsQ [Streptococcus pyog...  60.8    4e-12
+AFC67328.1  SSU ribosomal protein (S17p) RpsQ [Streptococcus pyog...  60.8    4e-12
+KXA44753.1  30S ribosomal protein S17 [Streptococcus agalactiae]      60.8    4e-12
+KXA45703.1  30S ribosomal protein S17 [Streptococcus agalactiae]      60.8    4e-12
+KXA47916.1  30S ribosomal protein S17 [Streptococcus agalactiae]      60.8    4e-12
+KXA47992.1  30S ribosomal protein S17 [Streptococcus agalactiae]      60.8    4e-12
+KXA56142.1  30S ribosomal protein S17 [Streptococcus agalactiae]      60.8    4e-12
+KXA57018.1  30S ribosomal protein S17 [Streptococcus agalactiae]      60.8    4e-12
+KXA59808.1  30S ribosomal protein S17 [Streptococcus agalactiae]      60.8    4e-12
+OFU93823.1  30S ribosomal protein S17 [Streptococcus sp. HMSC11C05]   60.8    4e-12
+KJJ16654.1  30S ribosomal protein S17 [Pseudomonas sp. HMSC05H02]     60.8    4e-12
+KWZ79376.1  30S ribosomal protein S17 [Anaerococcus tetradius]        60.8    4e-12
+ERI82561.1  30S ribosomal protein S17 [Bifidobacterium bifidum AT...  60.5    4e-12
+OFV24685.1  30S ribosomal protein S17 [Staphylococcus sp. HMSC14C08]  60.5    5e-12
+OFV26815.1  30S ribosomal protein S17 [Staphylococcus sp. HMSC14D10]  60.5    5e-12
+KXB38948.1  30S ribosomal protein S17 [Clostridiales bacterium KA...  60.5    5e-12
+OFT01663.1  30S ribosomal protein S17 [Neisseria sp. HMSC31F04]       60.5    5e-12
+OFS19542.1  30S ribosomal protein S17 [Dietzia sp. HMSC21D01]         60.5    5e-12
+OFT43563.1  30S ribosomal protein S17 [Aerococcus sp. HMSC06H08]      60.5    6e-12
+AKO69348.1  30S ribosomal protein S17 [Francisella tularensis sub...  60.1    6e-12
+OFV27881.1  30S ribosomal protein S17 [Staphylococcus sp. HMSC14D01]  60.1    6e-12
+OFT50954.1  30S ribosomal protein S17 [Corynebacterium sp. HMSC06...  60.5    6e-12
+OFT61027.1  30S ribosomal protein S17 [Corynebacterium sp. HMSC05...  60.5    6e-12
+KWZ81249.1  30S ribosomal protein S17 [Bifidobacterium bifidum]       60.1    6e-12
+EFE88564.1  30S ribosomal protein S17 [Bifidobacterium breve DSM ...  60.1    7e-12
+EPH65033.1  30S ribosomal protein S17 [Enterococcus casseliflavus...  60.1    7e-12
+ERI86696.1  30S ribosomal protein S17 [Bifidobacterium breve JCP7...  60.1    7e-12
+KWZ84494.1  30S ribosomal protein S17 [Bifidobacterium breve]         60.1    7e-12
+KWZ96078.1  30S ribosomal protein S17 [Bifidobacterium longum]        60.1    7e-12
+OFT94967.1  30S ribosomal protein S17 [Aerococcus sp. HMSC23C02]      60.1    7e-12
+EZK42926.1  30S ribosomal protein S17 [Francisella tularensis sub...  60.1    7e-12
+EZK48269.1  30S ribosomal protein S17 [Francisella tularensis sub...  60.1    7e-12
+EZK50092.1  30S ribosomal protein S17 [Francisella tularensis sub...  60.1    7e-12
+AKE21529.1  30S ribosomal protein S17 [Francisella tularensis sub...  60.1    7e-12
+AOP71035.1  30S ribosomal protein S17 [Francisella tularensis sub...  60.1    7e-12
+AOP72825.1  30S ribosomal protein S17 [Francisella tularensis sub...  60.1    7e-12
+AOP74615.1  30S ribosomal protein S17 [Francisella tularensis sub...  60.1    7e-12
+EKY08116.1  30S ribosomal protein S17 [Capnocytophaga sp. oral ta...  60.1    7e-12
+EKY11322.1  30S ribosomal protein S17 [Capnocytophaga sp. oral ta...  60.1    7e-12
+EKY11507.1  30S ribosomal protein S17 [Capnocytophaga sp. oral ta...  60.1    7e-12
+EKY15199.1  30S ribosomal protein S17 [Capnocytophaga sp. oral ta...  60.1    7e-12
+KHE70722.1  30S ribosomal protein S17 [Capnocytophaga sp. oral ta...  60.1    7e-12
+OFT31925.1  30S ribosomal protein S17 [Corynebacterium sp. HMSC08...  60.1    8e-12
+OFT46670.1  30S ribosomal protein S17 [Corynebacterium sp. HMSC06...  60.1    8e-12
+OFT52604.1  30S ribosomal protein S17 [Corynebacterium sp. HMSC06...  60.1    8e-12
+AIR34970.1  30S ribosomal protein S17 [Mycobacterium abscessus su...  60.5    8e-12
+AIR39849.1  30S ribosomal protein S17 [Mycobacterium abscessus su...  60.5    8e-12
+AIV12521.1  30S ribosomal protein S17 [Mycobacterium abscessus su...  60.5    8e-12
+AIV15056.1  30S ribosomal protein S17 [Mycobacterium abscessus su...  60.5    8e-12
+AIV19582.1  30S ribosomal protein S17 [Mycobacterium abscessus su...  60.5    8e-12
+AIR41988.1  30S ribosomal protein S17 [Mycobacterium abscessus su...  60.5    8e-12
+OFT73627.1  30S ribosomal protein S17 [Enterococcus sp. HMSC05C03]    60.1    8e-12
+OFT84555.1  30S ribosomal protein S17 [Enterococcus sp. HMSC29A04]    60.1    8e-12
+OFU69127.1  30S ribosomal protein S17 [Enterococcus sp. HMSC14A10]    60.1    8e-12
+EFW25386.1  30S ribosomal protein S17 [Solobacterium moorei F0204]    59.7    9e-12
+EEC90379.1  30S ribosomal protein S17 [Holdemanella biformis DSM ...  59.7    9e-12
+OFS27690.1  30S ribosomal protein S17 [Brevibacterium sp. HMSC07C04]  60.1    9e-12
+OFT27341.1  30S ribosomal protein S17 [Brevibacterium sp. HMSC08F02]  60.1    9e-12
+OFT91579.1  30S ribosomal protein S17 [Brevibacterium sp. HMSC24B04]  60.1    9e-12
+OFT95666.1  30S ribosomal protein S17 [Brevibacterium sp. HMSC22B09]  60.1    9e-12
+EKY05827.1  30S ribosomal protein S17 [Neisseria sp. oral taxon 0...  59.7    1e-11
+OFU53384.1  30S ribosomal protein S17 [Aerococcus sp. HMSC10H05]      59.7    1e-11
+EPH99888.1  30S ribosomal protein S17 [Enterococcus faecalis 13-S...  59.7    1e-11
+EPH67686.1  30S ribosomal protein S17 [Enterococcus faecium 13.SD...  59.7    1e-11
+EPH97295.1  30S ribosomal protein S17 [Enterococcus faecalis 06-M...  59.7    1e-11
+EFC51883.1  30S ribosomal protein S17 [Neisseria subflava NJ9703]     59.7    1e-11
+OFV32791.1  30S ribosomal protein S17 [Neisseria sp. HMSC15G01]       59.7    1e-11
+EEX48016.1  30S ribosomal protein S17 [Jonquetella anthropi E3_33...  59.7    1e-11
+OFT65569.1  30S ribosomal protein S17 [Corynebacterium sp. HMSC05...  59.7    1e-11
+EDN84878.1  30S ribosomal protein S17 [Parabacteroides merdae ATC...  59.3    1e-11
+EEC96151.1  30S ribosomal protein S17 [Parabacteroides johnsonii ...  59.3    1e-11
+EHL99190.1  30S ribosomal protein S17 [Lactobacillus parafarragin...  59.3    2e-11
+
+
+>KXB81217.1 30S ribosomal protein S17 [Varibaculum cambriense]
+Length=94
+
+ Score = 74.7 bits (182),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 36/68 (53%), Positives = 48/68 (71%), Gaps = 0/68 (0%)
+
+Query  2   KKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCR  61
+           K L G VVS +M KTV+V+V+ +VKH LYGK I ++KRY VHD   +   G+L+ I   R
+Sbjct  17  KVLQGYVVSDKMDKTVVVQVEDRVKHRLYGKVINRRKRYKVHDENNECGTGDLVRIMETR  76
+
+Query  62  PISKTKKW  69
+           P+SKTK+W
+Sbjct  77  PLSKTKRW  84
+
+
+>EKX97703.1 30S ribosomal protein S17 [Aggregatibacter actinomycetemcomitans 
+Y4]
+Length=85
+
+ Score = 71.2 bits (173),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 32/69 (46%), Positives = 48/69 (70%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ + G VVS +M+K+ +V ++ +VKH LYGK I +  +  VHD   +A LG+L+ +R C
+Sbjct  5   IRSVQGRVVSDKMEKSFVVAIERKVKHPLYGKFIRRTTKLHVHDENNEAKLGDLVEVREC  64
+
+Query  61  RPISKTKKW  69
+           RPISKTK W
+Sbjct  65  RPISKTKSW  73
+
+
+>ERH28702.1 30S ribosomal protein S17 [Aggregatibacter sp. oral taxon 458 
+str. W10330]
+Length=85
+
+ Score = 71.2 bits (173),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 32/69 (46%), Positives = 48/69 (70%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ + G VVS +M+K+ +V ++ +VKH LYGK I +  +  VHD   +A LG+L+ +R C
+Sbjct  5   IRSVQGRVVSDKMEKSFVVAIERKVKHPLYGKFIRRTTKLHVHDENNEAKLGDLVEVREC  64
+
+Query  61  RPISKTKKW  69
+           RPISKTK W
+Sbjct  65  RPISKTKSW  73
+
+
+>EKY15342.1 30S ribosomal protein S17 [Actinomyces sp. oral taxon 181 str. 
+F0379]
+Length=88
+
+ Score = 69.7 bits (169),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 32/64 (50%), Positives = 45/64 (70%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G V S +M KTV+VE++ +VKHALYGK + K K+  VHD   + S+G+L+ I   RP+S 
+Sbjct  15  GYVTSDKMDKTVVVEIEDRVKHALYGKVMRKSKKVKVHDEHNECSVGDLVLIMETRPLSA  74
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  75  TKRW  78
+
+
+>EKF02230.1 ribosomal protein S17 [Tolypothrix sp. PCC 7601]
+Length=83
+
+ Score = 68.9 bits (167),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 32/81 (40%), Positives = 53/81 (65%), Gaps = 0/81 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           +K+ +GLVVS +MQKTV+V V+ +  H  YGK +++ +RY  HD + +  +G+ + I+  
+Sbjct  3   VKERVGLVVSDKMQKTVVVAVENRAPHPKYGKIVVQTRRYKAHDEDNQCKVGDRVRIQET  62
+
+Query  61  RPISKTKKWIYDSSANASQSS  81
+           RP+SKTK+W      NA  ++
+Sbjct  63  RPLSKTKRWQVTEILNAKATT  83
+
+
+>EDS18492.1 30S ribosomal protein S17 [Erysipelatoclostridium ramosum DSM 
+1402]
+Length=86
+
+ Score = 68.6 bits (166),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 44/64 (69%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G VVS +M KT+ V+V+T VKH LYGKR+    ++  HD E  AS+G+ + I + RP+S 
+Sbjct  11  GTVVSTKMDKTITVQVETHVKHKLYGKRMKSTTKFHAHDEENIASVGDTVKIMSTRPLSA  70
+
+Query  66  TKKW  69
+           TK++
+Sbjct  71  TKRF  74
+
+
+>EDN79909.1 30S ribosomal protein S17 [Actinomyces odontolyticus ATCC 17982]
+Length=88
+
+ Score = 68.6 bits (166),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 31/64 (48%), Positives = 45/64 (70%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G VVS +M KTV+V+++ +VKHALYGK + K K+  VHD   +  +G+L+ I   RP+S 
+Sbjct  15  GYVVSDKMDKTVVVQIEDRVKHALYGKVMRKNKKVKVHDEHNECGVGDLVLIMETRPLSA  74
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  75  TKRW  78
+
+
+>EFF80019.1 30S ribosomal protein S17 [Actinomyces odontolyticus F0309]
+Length=88
+
+ Score = 68.6 bits (166),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 31/64 (48%), Positives = 45/64 (70%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G VVS +M KTV+V+++ +VKHALYGK + K K+  VHD   +  +G+L+ I   RP+S 
+Sbjct  15  GYVVSDKMDKTVVVQIEDRVKHALYGKVMRKNKKVKVHDEHNECGVGDLVLIMETRPLSA  74
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  75  TKRW  78
+
+
+>ERH32790.1 30S ribosomal protein S17 [Actinomyces sp. oral taxon 172 str. 
+F0311]
+Length=88
+
+ Score = 68.6 bits (166),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 31/64 (48%), Positives = 45/64 (70%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G VVS +M KTV+V+++ +VKHALYGK + K K+  VHD   +  +G+L+ I   RP+S 
+Sbjct  15  GYVVSDKMDKTVVVQIEDRVKHALYGKVMRKNKKVKVHDEHNECGVGDLVLIMETRPLSA  74
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  75  TKRW  78
+
+
+>KXA12818.1 30S ribosomal protein S17 [Clostridium perfringens]
+Length=84
+
+ Score = 68.2 bits (165),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 30/68 (44%), Positives = 45/68 (66%), Gaps = 0/68 (0%)
+
+Query  2   KKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCR  61
+           KK LG VVS +M KT++V V+T+V+H LYGK + +  ++  HD   +A  G+ + I   R
+Sbjct  7   KKRLGRVVSDKMDKTIVVAVETKVRHPLYGKTVNRTTKFKAHDENNEARFGDRVLIMETR  66
+
+Query  62  PISKTKKW  69
+           P+SK K+W
+Sbjct  67  PLSKDKRW  74
+
+
+>EKX97392.1 30S ribosomal protein S17 [Prevotella saccharolytica F0055]
+Length=88
+
+ Score = 67.8 bits (164),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 28/64 (44%), Positives = 46/64 (72%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G+VVS +M KT+++  K + KH +YGK + K K+Y VHD + +A++G+ + I   RP+S+
+Sbjct  15  GVVVSNKMDKTIVIAAKFKEKHPIYGKFVQKTKKYHVHDEKNEANIGDTVLIMETRPLSR  74
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  75  TKRW  78
+
+
+>EHM46446.1 30S ribosomal protein S17 [Hafnia alvei ATCC 51873]
+Length=84
+
+ Score = 67.8 bits (164),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 30/69 (43%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+V+V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSVVVTIERMVKHPMYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>OFS11714.1 30S ribosomal protein S17 [Hafnia sp. HMSC23F03]
+Length=84
+
+ Score = 67.8 bits (164),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 30/69 (43%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+V+V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSVVVTIERMVKHPMYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>OFT23526.1 30S ribosomal protein S17 [Arthrobacter sp. HMSC08H08]
+Length=96
+
+ Score = 68.2 bits (165),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 33/68 (49%), Positives = 44/68 (65%), Gaps = 0/68 (0%)
+
+Query  2   KKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCR  61
+           K L G VVS +M KTV+V V+ +VKHALYGK + + KR   HD    A +G+L+ +   R
+Sbjct  19  KTLRGYVVSDKMDKTVVVNVEDRVKHALYGKVMRRSKRVKAHDENNTAGVGDLVIVAETR  78
+
+Query  62  PISKTKKW  69
+           P+SK K W
+Sbjct  79  PLSKDKCW  86
+
+
+>OFT44686.1 30S ribosomal protein S17 [Arthrobacter sp. HMSC06H05]
+Length=96
+
+ Score = 68.2 bits (165),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 33/68 (49%), Positives = 44/68 (65%), Gaps = 0/68 (0%)
+
+Query  2   KKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCR  61
+           K L G VVS +M KTV+V V+ +VKHALYGK + + KR   HD    A +G+L+ +   R
+Sbjct  19  KTLRGYVVSDKMDKTVVVNVEDRVKHALYGKVMRRSKRVKAHDENNTAGVGDLVIVAETR  78
+
+Query  62  PISKTKKW  69
+           P+SK K W
+Sbjct  79  PLSKDKCW  86
+
+
+>KDR53271.1 30S ribosomal protein S17 [Prevotella loescheii DSM 19665 = JCM 
+12249 = ATCC 15930]
+Length=85
+
+ Score = 67.8 bits (164),  Expect = 7e-15, Method: Compositional matrix adjust.
+ Identities = 28/64 (44%), Positives = 46/64 (72%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G+V+S +M KT+++  K + KH +YGK + K K+Y VHD + +A++G+ + I   RP+SK
+Sbjct  12  GVVLSNKMDKTIVIAAKFKEKHPIYGKFVQKTKKYHVHDEKNEANIGDTVLIMETRPLSK  71
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  72  TKRW  75
+
+
+>OFT92381.1 30S ribosomal protein S17 [Burkholderia sp. HMSC10F09]
+Length=90
+
+ Score = 67.8 bits (164),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 31/68 (46%), Positives = 46/68 (68%), Gaps = 0/68 (0%)
+
+Query  2   KKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCR  61
+           + L+G VVS +M KTV V V+ +VKH +YGK +++ K+Y  HD     + G+L+ I+  R
+Sbjct  11  RTLIGRVVSNKMDKTVTVLVEHRVKHPIYGKYVVRSKKYHAHDEANTYNEGDLVEIQETR  70
+
+Query  62  PISKTKKW  69
+           P+SKTK W
+Sbjct  71  PVSKTKAW  78
+
+
+>KXA45265.1 30S ribosomal protein S17 [Prevotella corporis]
+Length=88
+
+ Score = 67.4 bits (163),  Expect = 9e-15, Method: Compositional matrix adjust.
+ Identities = 27/64 (42%), Positives = 46/64 (72%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G+V+S +M KT+++  K + KH +YGK + K K+Y VHD + +A++G+ + I   RP+S+
+Sbjct  15  GVVISNKMDKTIVIAAKFKEKHPIYGKFVQKTKKYHVHDEKNEANIGDTVLIMETRPLSR  74
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  75  TKRW  78
+
+
+>AEE45147.1 30S ribosomal protein S17 [Cellulomonas fimi ATCC 484]
+Length=94
+
+ Score = 67.4 bits (163),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 31/64 (48%), Positives = 43/64 (67%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G VVS +M KTV+VEV+ +VKH LYGK I +  +   HD +  A +G+L+ I   RP+S 
+Sbjct  21  GYVVSDKMDKTVVVEVEDRVKHPLYGKVIRRTSKVKAHDEQGSAGIGDLVLIMETRPLSA  80
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  81  TKRW  84
+
+
+>OFT44504.1 30S ribosomal protein S17 [Brachybacterium sp. HMSC06H03]
+Length=108
+
+ Score = 67.8 bits (164),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 30/68 (44%), Positives = 44/68 (65%), Gaps = 0/68 (0%)
+
+Query  2   KKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCR  61
+           K L G VVS +M KT++VEV+ +VKHA YGK   K  ++  HD E  A +G+ + +   R
+Sbjct  31  KTLRGYVVSDKMDKTIVVEVEERVKHARYGKVTTKTSKFKAHDEENTAGIGDRVLVMETR  90
+
+Query  62  PISKTKKW  69
+           P+S +K+W
+Sbjct  91  PLSASKRW  98
+
+
+>ERI06776.1 30S ribosomal protein S17 [Aneurinibacillus aneurinilyticus ATCC 
+12856]
+Length=88
+
+ Score = 67.4 bits (163),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 32/68 (47%), Positives = 46/68 (68%), Gaps = 0/68 (0%)
+
+Query  2   KKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCR  61
+           K +LG VVS +M KT++V V+T  KH LYGKR+   K++  HD +  A +G+L+ I   R
+Sbjct  9   KVVLGRVVSDKMDKTIVVLVETYKKHPLYGKRVKYSKKFKAHDEQNTAKIGDLVKIMETR  68
+
+Query  62  PISKTKKW  69
+           P+SK K+W
+Sbjct  69  PLSKDKRW  76
+
+
+>EFE21396.1 30S ribosomal protein S17 [Edwardsiella tarda ATCC 23685]
+Length=84
+
+ Score = 67.0 bits (162),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERMVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>EFW11560.1 30S ribosomal subunit protein S17 [Serratia symbiotica str. Tucson]
+Length=84
+
+ Score = 67.0 bits (162),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSHKMEKSIVVAIERTVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>OFS84197.1 30S ribosomal protein S17 [Oligella sp. HMSC05A10]
+Length=91
+
+ Score = 67.4 bits (163),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 31/68 (46%), Positives = 43/68 (63%), Gaps = 0/68 (0%)
+
+Query  2   KKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCR  61
+           + L+G VVS +M KT++V V  +VKH LYGK + + K Y  HD E + + G+ + I   R
+Sbjct  12  RTLIGKVVSNKMDKTIVVRVDRRVKHPLYGKFVNRSKNYKAHDEENQYNEGDTVEIAEGR  71
+
+Query  62  PISKTKKW  69
+           PISK K W
+Sbjct  72  PISKDKSW  79
+
+
+>OFV50726.1 30S ribosomal protein S17 [Oligella sp. HMSC09E12]
+Length=91
+
+ Score = 67.4 bits (163),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 31/68 (46%), Positives = 43/68 (63%), Gaps = 0/68 (0%)
+
+Query  2   KKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCR  61
+           + L+G VVS +M KT++V V  +VKH LYGK + + K Y  HD E + + G+ + I   R
+Sbjct  12  RTLIGKVVSNKMDKTIVVRVDRRVKHPLYGKFVNRSKNYKAHDEENQYNEGDTVEIAEGR  71
+
+Query  62  PISKTKKW  69
+           PISK K W
+Sbjct  72  PISKDKSW  79
+
+
+>EHO46247.1 30S ribosomal protein S17 [Haemophilus sp. oral taxon 851 str. 
+F0397]
+Length=85
+
+ Score = 67.0 bits (162),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 30/69 (43%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ + G VVS +M+K+ +V ++ +VKH LYGK I +  +  VHD   +A +G+ + IR C
+Sbjct  5   IRSVQGKVVSDKMEKSFVVAIERKVKHPLYGKFIRRTTKLHVHDENNEAKVGDTVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>AJX20891.1 30S ribosomal protein S17 [Burkholderia pseudomallei MSHR491]
+Length=90
+
+ Score = 67.0 bits (162),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 31/68 (46%), Positives = 46/68 (68%), Gaps = 0/68 (0%)
+
+Query  2   KKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCR  61
+           + L+G VVS +M KTV V V+ +VKH +YGK +++ K+Y  HD     + G+L+ I+  R
+Sbjct  11  RTLVGKVVSNKMDKTVTVLVEHRVKHPIYGKYVVRSKKYHAHDEANTYNEGDLVEIQETR  70
+
+Query  62  PISKTKKW  69
+           P+SKTK W
+Sbjct  71  PVSKTKAW  78
+
+
+>OFT10353.1 30S ribosomal protein S17 [Klebsiella sp. HMSC25G12]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERMVKHPVYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>OFT12307.1 30S ribosomal protein S17 [Klebsiella sp. HMSC22F09]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERMVKHPVYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>OFU90121.1 30S ribosomal protein S17 [Proteus sp. HMSC10D02]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERMVKHPVYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>OFV45000.1 30S ribosomal protein S17 [Klebsiella sp. HMSC16C06]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERMVKHPVYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>OFV53809.1 30S ribosomal protein S17 [Klebsiella sp. HMSC09D12]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERMVKHPVYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>OFS23633.1 30S ribosomal protein S17 [Clostridium sp. HMSC19A10]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 30/68 (44%), Positives = 48/68 (71%), Gaps = 0/68 (0%)
+
+Query  2   KKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCR  61
+           KK +G VVS +M+KT++V V+T+V+H LYGK I +  ++ VHD + +A + + + I   R
+Sbjct  7   KKRIGRVVSDKMEKTIVVAVETKVRHPLYGKTINRTTKFKVHDEKNEAKINDRVSIMETR  66
+
+Query  62  PISKTKKW  69
+           P+SK K+W
+Sbjct  67  PLSKDKRW  74
+
+
+>KXO17624.1 30S ribosomal protein S17 [Prevotella bivia]
+Length=88
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 27/64 (42%), Positives = 45/64 (70%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G+V+S +M KT+++  K + KH +YGK + K K+Y  HD + +A++G+ + I   RP+SK
+Sbjct  15  GVVISNKMDKTIVIAAKFKEKHPIYGKFVQKTKKYHAHDEKNEANIGDTVMIMETRPLSK  74
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  75  TKRW  78
+
+
+>KXU56891.1 30S ribosomal protein S17 [Prevotella bivia]
+Length=88
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 27/64 (42%), Positives = 45/64 (70%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G+V+S +M KT+++  K + KH +YGK + K K+Y  HD + +A++G+ + I   RP+SK
+Sbjct  15  GVVISNKMDKTIVIAAKFKEKHPIYGKFVQKTKKYHAHDEKNEANIGDTVMIMETRPLSK  74
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  75  TKRW  78
+
+
+>EFJ83073.1 30S ribosomal protein S17 [Escherichia coli MS 69-1]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>EFJ87970.1 30S ribosomal protein S17 [Escherichia coli MS 84-1]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>EFJ92931.1 30S ribosomal protein S17 [Escherichia coli MS 45-1]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>EFJ97855.1 30S ribosomal protein S17 [Escherichia coli MS 115-1]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>EFK75761.1 30S ribosomal protein S17 [Escherichia coli MS 78-1]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>EFO58898.1 30S ribosomal protein S17 [Escherichia coli MS 145-7]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>EFU35862.1 30S ribosomal protein S17 [Escherichia coli MS 85-1]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>EFU44059.1 30S ribosomal protein S17 [Escherichia coli MS 110-3]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>EFJ75360.1 30S ribosomal protein S17 [Escherichia coli MS 198-1]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>EFK05039.1 30S ribosomal protein S17 [Escherichia coli MS 182-1]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>EFU51724.1 30S ribosomal protein S17 [Escherichia coli MS 153-1]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>EFU57864.1 30S ribosomal protein S17 [Escherichia coli MS 16-3]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>EGU95709.1 30S ribosomal protein S17 [Escherichia coli MS 79-10]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>ESA68246.1 30S ribosomal protein S17 [Escherichia coli 113303]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>ESA69955.1 30S ribosomal protein S17 [Escherichia coli 113290]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>ESA73256.1 30S ribosomal protein S17 [Escherichia coli 110957]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>ESA79150.1 30S ribosomal protein S17 [Escherichia coli 907357]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>ESA89186.1 30S ribosomal protein S17 [Escherichia coli 907713]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>ESA91161.1 30S ribosomal protein S17 [Escherichia coli 907779]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>ESA98762.1 30S ribosomal protein S17 [Escherichia coli 909945-2]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>ESD01699.1 30S ribosomal protein S17 [Escherichia coli 907446]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>ESD02246.1 30S ribosomal protein S17 [Escherichia coli 907391]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>ESD10007.1 30S ribosomal protein S17 [Escherichia coli 907672]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>ESD10320.1 30S ribosomal protein S17 [Escherichia coli 113302]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>ESD17124.1 30S ribosomal protein S17 [Escherichia coli 907700]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>ESD25756.1 30S ribosomal protein S17 [Escherichia coli 907710]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>ESD27423.1 30S ribosomal protein S17 [Escherichia coli 907701]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>ESD28996.1 30S ribosomal protein S17 [Escherichia coli 907715]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>ESD43142.1 30S ribosomal protein S17 [Escherichia coli 907889]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>ESD44317.1 30S ribosomal protein S17 [Escherichia coli 907892]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>ESD45146.1 30S ribosomal protein S17 [Escherichia coli 908519]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>ESD55408.1 30S ribosomal protein S17 [Escherichia coli 908521]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>ESD58871.1 30S ribosomal protein S17 [Escherichia coli 908522]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>ESD62027.1 30S ribosomal protein S17 [Escherichia coli 908524]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>ESD73126.1 30S ribosomal protein S17 [Escherichia coli 908555]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>ESD78495.1 30S ribosomal protein S17 [Escherichia coli 908525]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>ESD78863.1 30S ribosomal protein S17 [Escherichia coli 908541]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>ESD82718.1 30S ribosomal protein S17 [Escherichia coli 908573]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>ESD90037.1 30S ribosomal protein S17 [Escherichia coli 908585]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>ESD95526.1 30S ribosomal protein S17 [Escherichia coli 908616]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>ESE04680.1 30S ribosomal protein S17 [Escherichia coli 908624]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>ESE09633.1 30S ribosomal protein S17 [Escherichia coli 908658]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>ESE11038.1 30S ribosomal protein S17 [Escherichia coli 908675]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>ESE12051.1 30S ribosomal protein S17 [Escherichia coli 908632]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>ESE23847.1 30S ribosomal protein S17 [Escherichia coli 908691]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>ESE25169.1 30S ribosomal protein S17 [Escherichia coli 910096-2]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>ESE38728.1 30S ribosomal protein S17 [Escherichia coli A25922R]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>ESE39110.1 30S ribosomal protein S17 [Escherichia coli A35218R]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>EST65874.1 30S ribosomal protein S17 [Escherichia coli P4-NR]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>KXG98382.1 30S ribosomal protein S17 [Escherichia coli]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>KXH00928.1 30S ribosomal protein S17 [Escherichia coli]
+Length=84
+
+ Score = 66.6 bits (161),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>KXA07655.1 30S ribosomal protein S17 [Finegoldia magna]
+Length=84
+
+ Score = 66.2 bits (160),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 31/68 (46%), Positives = 46/68 (68%), Gaps = 0/68 (0%)
+
+Query  2   KKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCR  61
+           K ++G+VVS +M K+++VEVKT VK   YGK++ K  ++  HD E  A +G+ + I   R
+Sbjct  7   KTIVGIVVSDKMDKSIVVEVKTLVKDPKYGKQLRKTTKFKAHDEENIAGIGDKVKIMETR  66
+
+Query  62  PISKTKKW  69
+           P+SKTK W
+Sbjct  67  PLSKTKNW  74
+
+
+>EHB39965.1 30S ribosomal protein S17 [Salmonella enterica subsp. enterica 
+serovar Infantis str. SARB27]
+Length=84
+
+ Score = 66.2 bits (160),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKMHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>EHY67767.1 30S ribosomal protein S17 [Salmonella enterica subsp. houtenae 
+str. ATCC BAA-1581]
+Length=84
+
+ Score = 66.2 bits (160),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKMHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>EMR50409.1 30S ribosomal protein S17 [Salmonella enterica subsp. enterica 
+serovar Dublin str. UC16]
+Length=84
+
+ Score = 66.2 bits (160),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKMHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>EPI71280.1 30S ribosomal protein S17 [Salmonella enterica subsp. enterica 
+serovar Dublin str. DG22]
+Length=84
+
+ Score = 66.2 bits (160),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKMHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>EPI72733.1 30S ribosomal protein S17 [Salmonella enterica subsp. enterica 
+serovar Enteritidis str. 08-1080]
+Length=84
+
+ Score = 66.2 bits (160),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKMHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>EPI76841.1 30S ribosomal protein S17 [Salmonella enterica subsp. enterica 
+serovar Enteritidis str. 2009K0958]
+Length=84
+
+ Score = 66.2 bits (160),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKMHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>EPI84988.1 30S ribosomal protein S17 [Salmonella enterica subsp. enterica 
+serovar Enteritidis str. 2009K1726]
+Length=84
+
+ Score = 66.2 bits (160),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKMHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>EPI88391.1 30S ribosomal protein S17 [Salmonella enterica subsp. enterica 
+serovar Enteritidis str. 2009K1651]
+Length=84
+
+ Score = 66.2 bits (160),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKMHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>EPI90880.1 30S ribosomal protein S17 [Salmonella enterica subsp. enterica 
+serovar Enteritidis str. 2010K-0262]
+Length=84
+
+ Score = 66.2 bits (160),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKMHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>EPJ00530.1 30S ribosomal protein S17 [Salmonella enterica subsp. enterica 
+serovar Enteritidis str. 2010K-0267]
+Length=84
+
+ Score = 66.2 bits (160),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKMHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>EPJ01429.1 30S ribosomal protein S17 [Salmonella enterica subsp. enterica 
+serovar Enteritidis str. 2010K-0271]
+Length=84
+
+ Score = 66.2 bits (160),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKMHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>EPJ03437.1 30S ribosomal protein S17 [Salmonella enterica subsp. enterica 
+serovar Enteritidis str. 2010K-0284]
+Length=84
+
+ Score = 66.2 bits (160),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKMHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>EPJ10067.1 30S ribosomal protein S17 [Salmonella enterica subsp. enterica 
+serovar Enteritidis str. 2010K-0286]
+Length=84
+
+ Score = 66.2 bits (160),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKMHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>ETA88091.1 30S ribosomal protein S17 [Salmonella enterica subsp. enterica 
+serovar Cubana str. 76814]
+Length=84
+
+ Score = 66.2 bits (160),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKMHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>EEX17904.1 30S ribosomal protein S17 [Prevotella veroralis F0319]
+Length=88
+
+ Score = 66.2 bits (160),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 27/64 (42%), Positives = 45/64 (70%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G+V+S +M KT+++  K + KH +YGK + K K+Y  HD + +A++G+ + I   RP+SK
+Sbjct  15  GVVISNKMDKTIVIAAKFKEKHPIYGKFVQKTKKYHAHDEKNEANVGDTVLIMETRPLSK  74
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  75  TKRW  78
+
+
+>ERJ75657.1 30S ribosomal protein S17 [Prevotella sp. F0091]
+Length=88
+
+ Score = 66.2 bits (160),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 27/64 (42%), Positives = 45/64 (70%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G+V+S +M KT+++  K + KH +YGK + K K+Y  HD + +A++G+ + I   RP+SK
+Sbjct  15  GVVISNKMDKTIVIAAKFKEKHPIYGKFVQKTKKYHAHDEKNEANVGDTVLIMETRPLSK  74
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  75  TKRW  78
+
+
+>KXB81423.1 30S ribosomal protein S17 [Prevotella amnii]
+Length=88
+
+ Score = 66.2 bits (160),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 27/64 (42%), Positives = 45/64 (70%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G+V+S +M KT++V  K + KH +YGK + K K+Y  HD + +A++G+ + +   RP+SK
+Sbjct  15  GVVISNKMDKTIVVAAKFKEKHPIYGKFVQKTKKYHAHDEKNEANVGDTVMVMETRPLSK  74
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  75  TKRW  78
+
+
+>AEI75024.1 putative 30S ribosomal protein S17 [Candidatus Moranella endobia 
+PCIT]
+Length=85
+
+ Score = 66.2 bits (160),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 30/68 (44%), Positives = 46/68 (68%), Gaps = 0/68 (0%)
+
+Query  2   KKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCR  61
+           + L G VVS +M+K+++V ++  VKH LYGK I +  +  VHD   ++ + +++ IR CR
+Sbjct  7   RTLQGHVVSNKMEKSIVVAIERLVKHPLYGKFIKRTTKLHVHDEHNESKIDDIVEIRECR  66
+
+Query  62  PISKTKKW  69
+           PISKTK W
+Sbjct  67  PISKTKSW  74
+
+
+>EHM50986.1 30S ribosomal protein S17 [Yokenella regensburgei ATCC 43003]
+Length=84
+
+ Score = 66.2 bits (160),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERIVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>KXC01972.1 30S ribosomal protein S17 [Proteus mirabilis]
+Length=84
+
+ Score = 66.2 bits (160),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 31/69 (45%), Positives = 45/69 (65%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+V+V +   VKH LYGK I +  +  VHD   +  +G+++ IR  
+Sbjct  5   IRTLQGRVVSDKMEKSVVVAIDRMVKHPLYGKFIRRTTKLHVHDENNECGMGDVVEIRQT  64
+
+Query  61  RPISKTKKW  69
+           RPISKTK W
+Sbjct  65  RPISKTKSW  73
+
+
+>OFV14399.1 30S ribosomal protein S17 [Proteus sp. HMSC14B05]
+Length=84
+
+ Score = 66.2 bits (160),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 31/69 (45%), Positives = 45/69 (65%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+V+V +   VKH LYGK I +  +  VHD   +  +G+++ IR  
+Sbjct  5   IRTLQGRVVSDKMEKSVVVAIDRMVKHPLYGKFIRRTTKLHVHDENNECGMGDVVEIRQT  64
+
+Query  61  RPISKTKKW  69
+           RPISKTK W
+Sbjct  65  RPISKTKSW  73
+
+
+>KXB84121.1 30S ribosomal protein S17 [Prevotella sp. DNF00663]
+Length=88
+
+ Score = 66.2 bits (160),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 27/64 (42%), Positives = 45/64 (70%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G+VVS +M KT+++  K + KH +YGK + K K+Y  HD + +A++G+ + I   RP+S+
+Sbjct  15  GVVVSNKMDKTIVIAAKFKEKHPIYGKFVQKTKKYHAHDEKNEANVGDTVLIMETRPLSR  74
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  75  TKRW  78
+
+
+>OFS96586.1 30S ribosomal protein S17 [Serratia sp. HMSC15F11]
+Length=84
+
+ Score = 65.9 bits (159),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 46/69 (67%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +   G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERTVKHPIYGKFIKRTTKLHVHDENNECGTGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>ERJ79941.1 30S ribosomal protein S17 [Prevotella disiens JCM 6334 = ATCC 
+29426]
+Length=88
+
+ Score = 65.9 bits (159),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 27/64 (42%), Positives = 45/64 (70%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G+V S +M KT+++  K + KH +YGK + K K+Y VHD + +A++G+ + I   RP+SK
+Sbjct  15  GVVTSNKMDKTIVIAAKFKEKHPIYGKFVQKTKKYHVHDEKNEANIGDTVLIMETRPLSK  74
+
+Query  66  TKKW  69
+           +K+W
+Sbjct  75  SKRW  78
+
+
+>KRT35820.1 30S ribosomal protein S17 [Acetomicrobium hydrogeniformans ATCC 
+BAA-1850]
+Length=97
+
+ Score = 66.2 bits (160),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 29/64 (45%), Positives = 42/64 (66%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G+VVS +M KTV+V V    KHALY K ++K K++  HD E   S+G+ + I   RP+S+
+Sbjct  13  GIVVSNKMDKTVVVRVDRMAKHALYDKPVLKSKKFMAHDEENSCSIGDKVLIEETRPLSR  72
+
+Query  66  TKKW  69
+            K+W
+Sbjct  73  KKRW  76
+
+
+>EEB35318.1 30S ribosomal protein S17 [Anaerococcus hydrogenalis DSM 7454]
+Length=86
+
+ Score = 65.5 bits (158),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 28/64 (44%), Positives = 45/64 (70%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G+VVS +M KT+ V+V+T+++H +Y KR+   K+Y  HD   +A +G+ + I   RP+SK
+Sbjct  11  GIVVSDKMDKTITVKVETKIQHPVYKKRLNVSKKYKAHDENNEARVGDTVTIMETRPLSK  70
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  71  TKRW  74
+
+
+>AKU22857.1 30S ribosomal protein S17 [Massilia sp. NR 4-1]
+Length=90
+
+ Score = 65.9 bits (159),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 33/78 (42%), Positives = 46/78 (59%), Gaps = 0/78 (0%)
+
+Query  2   KKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCR  61
+           + L+G VVS +M KTV V ++  VKH LYGK I++  +Y  HD   +   G+ + I+  R
+Sbjct  11  RTLIGKVVSDKMDKTVTVLIERHVKHPLYGKIIVRSAKYHAHDETNQVKAGDTVEIQEGR  70
+
+Query  62  PISKTKKWIYDSSANASQ  79
+           PISKTK W       A+Q
+Sbjct  71  PISKTKAWTVTRVVQAAQ  88
+
+
+>WP_050409762.1 30S ribosomal protein S17 [Massilia sp. NR 4-1]
+Length=90
+
+ Score = 65.9 bits (159),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 33/78 (42%), Positives = 46/78 (59%), Gaps = 0/78 (0%)
+
+Query  2   KKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCR  61
+           + L+G VVS +M KTV V ++  VKH LYGK I++  +Y  HD   +   G+ + I+  R
+Sbjct  11  RTLIGKVVSDKMDKTVTVLIERHVKHPLYGKIIVRSAKYHAHDETNQVKAGDTVEIQEGR  70
+
+Query  62  PISKTKKWIYDSSANASQ  79
+           PISKTK W       A+Q
+Sbjct  71  PISKTKAWTVTRVVQAAQ  88
+
+
+>ERH32946.1 30S ribosomal protein S17 [Actinomyces sp. oral taxon 877 str. 
+F0543]
+Length=88
+
+ Score = 65.9 bits (159),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 43/64 (67%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G VVS +M KTV+V ++ +VKHALYGK + K  +  VHD   +  +G+L+ I   RP+S 
+Sbjct  15  GYVVSDKMDKTVVVRIEDRVKHALYGKVMRKNTKVKVHDEHNECGVGDLVLIMETRPLSA  74
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  75  TKRW  78
+
+
+>EFG81099.1 30S ribosomal protein S17 [Corynebacterium ammoniagenes DSM 20306]
+Length=94
+
+ Score = 65.9 bits (159),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 29/66 (44%), Positives = 45/66 (68%), Gaps = 0/66 (0%)
+
+Query  2   KKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCR  61
+           K   G+VVS +M KT++VE++ + +HALYGK +    R  VHD ++ A +G+ + I+ CR
+Sbjct  17  KNRTGVVVSDKMNKTIVVELENRKQHALYGKIMRNNPRVKVHDEDETAGIGDRVLIQECR  76
+
+Query  62  PISKTK  67
+           P+SK K
+Sbjct  77  PLSKDK  82
+
+
+>EDS74523.1 30S ribosomal protein S17 [[Clostridium] spiroforme DSM 1552]
+Length=86
+
+ Score = 65.5 bits (158),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 29/64 (45%), Positives = 43/64 (67%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G VVS +M KT+ V V+T VKH LYGKR+    ++  HD E  A++G+ + I + RP+S 
+Sbjct  11  GTVVSTKMDKTITVLVETHVKHKLYGKRMKSSTKFHAHDEENIANVGDTVKIMSTRPLSA  70
+
+Query  66  TKKW  69
+           TK++
+Sbjct  71  TKRF  74
+
+
+>OFT31108.1 30S ribosomal protein S17 [Corynebacterium sp. HMSC08D02]
+Length=94
+
+ Score = 65.5 bits (158),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 42/64 (66%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G VVS +M KT++VEV+ +  HALYGK +   KR   HD E  A +G+L+ I+  RP+SK
+Sbjct  21  GYVVSDKMDKTIVVEVEDRKSHALYGKIVRTTKRVKAHDEENTAGVGDLVRIQETRPLSK  80
+
+Query  66  TKKW  69
+            K +
+Sbjct  81  DKHF  84
+
+
+>EFE06516.1 30S ribosomal protein S17 [Citrobacter youngae ATCC 29220]
+Length=84
+
+ Score = 65.5 bits (158),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 46/69 (67%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +   G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGTGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>EPF13268.1 30S ribosomal protein S17 [Cedecea davisae DSM 4568]
+Length=84
+
+ Score = 65.5 bits (158),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 46/69 (67%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +   G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGTGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>KWZ90417.1 30S ribosomal protein S17 [Citrobacter freundii]
+Length=84
+
+ Score = 65.5 bits (158),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 46/69 (67%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +   G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGTGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>KXA03586.1 30S ribosomal protein S17 [Citrobacter koseri]
+Length=84
+
+ Score = 65.5 bits (158),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 46/69 (67%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +   G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGTGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>KXA04525.1 30S ribosomal protein S17 [Citrobacter koseri]
+Length=84
+
+ Score = 65.5 bits (158),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 46/69 (67%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +   G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGTGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>KXB46378.1 30S ribosomal protein S17 [Citrobacter koseri]
+Length=84
+
+ Score = 65.5 bits (158),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 46/69 (67%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +   G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGTGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>OFV19709.1 30S ribosomal protein S17 [Salmonella sp. HMSC13B08]
+Length=84
+
+ Score = 65.5 bits (158),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 46/69 (67%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +   G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGTGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>OPX47783.1 30S ribosomal protein S17 [Citrobacter freundii]
+Length=84
+
+ Score = 65.5 bits (158),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 46/69 (67%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +   G+++ IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGTGDVVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>EKY27803.1 30S ribosomal protein S17 [Clostridium celatum DSM 1785]
+Length=84
+
+ Score = 65.1 bits (157),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 28/68 (41%), Positives = 46/68 (68%), Gaps = 0/68 (0%)
+
+Query  2   KKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCR  61
+           KK +G VVS +M KT++V V+T+V+H LYGK + +  ++  HD   +A++ + + I   R
+Sbjct  7   KKKIGRVVSDKMDKTIVVAVETKVRHPLYGKTMNRTTKFKAHDENNEANMNDRVLIMETR  66
+
+Query  62  PISKTKKW  69
+           P+SK K+W
+Sbjct  67  PLSKDKRW  74
+
+
+>EGF63608.1 30S ribosomal protein S17 [Klebsiella sp. MS 92-3]
+Length=84
+
+ Score = 65.1 bits (157),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 46/69 (67%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+ + IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERMVKHPVYGKFIKRTTKLHVHDENNECGIGDKVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>ESB01064.1 30S ribosomal protein S17 [Klebsiella pneumoniae 909957]
+Length=84
+
+ Score = 65.1 bits (157),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 46/69 (67%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+ + IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERMVKHPVYGKFIKRTTKLHVHDENNECGIGDKVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>KXA26477.1 30S ribosomal protein S17 [Klebsiella pneumoniae]
+Length=84
+
+ Score = 65.1 bits (157),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 46/69 (67%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+ + IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERMVKHPVYGKFIKRTTKLHVHDENNECGIGDKVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>OFV34817.1 30S ribosomal protein S17 [Klebsiella sp. HMSC16A12]
+Length=84
+
+ Score = 65.1 bits (157),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 46/69 (67%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+ + IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERMVKHPVYGKFIKRTTKLHVHDENNECGIGDKVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>EEF93894.1 30S ribosomal protein S17 [Catenibacterium mitsuokai DSM 15897]
+Length=86
+
+ Score = 65.1 bits (157),  Expect = 9e-14, Method: Compositional matrix adjust.
+ Identities = 28/64 (44%), Positives = 42/64 (66%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G V+S +M KT+ V V+T VKH LYGKR+   K++  HD   +A +G+ + I   RP+S 
+Sbjct  11  GTVISTKMDKTITVLVETHVKHKLYGKRMNSSKKFHAHDENNEARVGDTVKIMATRPLSA  70
+
+Query  66  TKKW  69
+           TK++
+Sbjct  71  TKRF  74
+
+
+>EEB47884.1 30S ribosomal protein S17 [Providencia alcalifaciens DSM 30120]
+Length=84
+
+ Score = 64.7 bits (156),  Expect = 9e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 46/69 (67%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH LYGK I +  +  VHD   +  +G+++ IR  
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERMVKHPLYGKFIRRTTKLHVHDENNECGIGDVVEIRET  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>EFB70526.1 30S ribosomal protein S17 [Providencia rustigianii DSM 4541]
+Length=84
+
+ Score = 64.7 bits (156),  Expect = 9e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 46/69 (67%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH LYGK I +  +  VHD   +  +G+++ IR  
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERMVKHPLYGKFIRRTTKLHVHDENNECGIGDVVEIRET  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>EFB32888.1 30S ribosomal protein S17 [Prevotella oris F0302]
+Length=88
+
+ Score = 65.1 bits (157),  Expect = 9e-14, Method: Compositional matrix adjust.
+ Identities = 27/64 (42%), Positives = 45/64 (70%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G+V+S +M KT+++  K + KH +YGK + K K+Y  HD + +A++G+ + I   RP+SK
+Sbjct  15  GVVISNKMDKTIVIASKFKEKHPIYGKFVQKTKKYHAHDEKNEANVGDTVQIIETRPLSK  74
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  75  TKRW  78
+
+
+>EEX71900.1 30S ribosomal protein S17 [Alloprevotella tannerae ATCC 51259]
+Length=85
+
+ Score = 64.7 bits (156),  Expect = 9e-14, Method: Compositional matrix adjust.
+ Identities = 29/64 (45%), Positives = 44/64 (69%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G+V+S +M KT+IV  K + KH +YGK I K K+Y  HD + + +LG+++ I   RP+SK
+Sbjct  12  GVVLSNKMDKTIIVAAKFKEKHPIYGKFISKTKKYYAHDEKNEVNLGDIVQIMETRPLSK  71
+
+Query  66  TKKW  69
+            K+W
+Sbjct  72  LKRW  75
+
+
+>OFS07597.1 30S ribosomal protein S17 [Kytococcus sp. HMSC28H12]
+Length=102
+
+ Score = 65.1 bits (157),  Expect = 9e-14, Method: Compositional matrix adjust.
+ Identities = 31/64 (48%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G VVS +M+KT+ V ++  VKHALYGK I K K+   HD    A +G+L+ I   RP S 
+Sbjct  29  GYVVSDKMEKTITVALEEHVKHALYGKVIRKTKKVKAHDENNTAGVGDLVRIAETRPTSA  88
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  89  TKRW  92
+
+
+>EDU57762.1 30S ribosomal protein S17 [Providencia stuartii ATCC 25827]
+Length=84
+
+ Score = 64.7 bits (156),  Expect = 9e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 46/69 (67%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH LYGK I +  +  VHD   +  +G+++ IR  
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERMVKHPLYGKFIRRTTKLHVHDENNECGIGDVVEIRQT  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>EFE51281.1 30S ribosomal protein S17 [Providencia rettgeri DSM 1131]
+Length=84
+
+ Score = 64.7 bits (156),  Expect = 9e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 46/69 (67%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH LYGK I +  +  VHD   +  +G+++ IR  
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERMVKHPLYGKFIRRTTKLHVHDENNECGIGDVVEIRQT  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>KXU48635.1 30S ribosomal protein S17 [Candidatus Stoquefichus sp. KLE1796]
+Length=86
+
+ Score = 64.7 bits (156),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 29/64 (45%), Positives = 42/64 (66%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G V+S +M KT+ V V+T VKH LYGKR+   K++  HD E  A  G+++ I   RP+S 
+Sbjct  11  GTVISTKMDKTITVLVETHVKHKLYGKRVKSSKKFKAHDEENIARNGDVVKIMATRPLSA  70
+
+Query  66  TKKW  69
+           TK++
+Sbjct  71  TKRF  74
+
+
+>OFU97014.1 30S ribosomal protein S17 [Morganella sp. HMSC11D09]
+Length=84
+
+ Score = 64.7 bits (156),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 46/69 (67%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH LYGK I +  +  VHD   +  +G+++ IR  
+Sbjct  5   IRTLQGRVVSDKMEKSIVVTIERMVKHPLYGKFIRRTTKLHVHDENNECGIGDVVEIRET  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>EKX87923.1 30S ribosomal protein S17 [Prevotella sp. oral taxon 473 str. 
+F0040]
+Length=84
+
+ Score = 64.7 bits (156),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 29/64 (45%), Positives = 43/64 (67%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G+VVS +M KT++V  K + KH +YGK I K K+Y  HD +   ++G+ + I   RP+SK
+Sbjct  11  GVVVSNKMDKTIVVAAKFKEKHPIYGKFISKTKKYHAHDEKNDCNVGDTVLIMETRPLSK  70
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  71  TKRW  74
+
+
+>EFB34427.1 30S ribosomal protein S17 [Prevotella copri DSM 18205]
+Length=88
+
+ Score = 64.7 bits (156),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 26/64 (41%), Positives = 43/64 (67%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G+V+S +M KT+++  K +  H +YGK + K K+Y  HD   +A++G+ + I   RP+SK
+Sbjct  15  GVVISNKMDKTIVIAAKFKEMHPIYGKFVQKTKKYHAHDENNEANVGDTVMIMETRPLSK  74
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  75  TKRW  78
+
+
+>OFU69389.1 30S ribosomal protein S17 [Enterobacter sp. HMSC16D10]
+Length=84
+
+ Score = 64.3 bits (155),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 46/69 (67%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+ + IR C
+Sbjct  5   IRTLQGRVVSDKMEKSIVVAIERIVKHPIYGKFIKRTTKLHVHDENNECGIGDKVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>EHJ39980.1 30S ribosomal protein S17 [Prevotella stercorea DSM 18206]
+Length=88
+
+ Score = 64.3 bits (155),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 26/64 (41%), Positives = 44/64 (69%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G+V+S +M KT+++  K +  H +YGK + K K+Y  HD + +A++G+ + I   RP+SK
+Sbjct  15  GVVISNKMDKTIVIAAKFKEMHPIYGKFVQKTKKYHAHDEKNEANVGDTVLIMETRPLSK  74
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  75  TKRW  78
+
+
+>OFS14635.1 30S ribosomal protein S17 [Micrococcus sp. HMSC31B01]
+Length=93
+
+ Score = 64.3 bits (155),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 29/68 (43%), Positives = 45/68 (66%), Gaps = 0/68 (0%)
+
+Query  2   KKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCR  61
+           K L G+VVS +M KT++VEV+ + KH+LYGK +   KR   HD +  A +G+ + +   R
+Sbjct  16  KALRGIVVSDKMDKTIVVEVEDRKKHSLYGKVLKTSKRVKAHDEDNTAGVGDRVRLAETR  75
+
+Query  62  PISKTKKW  69
+           P+S +K+W
+Sbjct  76  PLSASKRW  83
+
+
+>OFT18125.1 30S ribosomal protein S17 [Micrococcus sp. HMSC30C05]
+Length=93
+
+ Score = 64.3 bits (155),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 29/68 (43%), Positives = 45/68 (66%), Gaps = 0/68 (0%)
+
+Query  2   KKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCR  61
+           K L G+VVS +M KT++VEV+ + KH+LYGK +   KR   HD +  A +G+ + +   R
+Sbjct  16  KALRGIVVSDKMDKTIVVEVEDRKKHSLYGKVLKTSKRVKAHDEDNTAGVGDRVRLAETR  75
+
+Query  62  PISKTKKW  69
+           P+S +K+W
+Sbjct  76  PLSASKRW  83
+
+
+>KXB49614.1 30S ribosomal protein S17 [Corynebacterium kroppenstedtii]
+Length=93
+
+ Score = 64.3 bits (155),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 28/65 (43%), Positives = 43/65 (66%), Gaps = 0/65 (0%)
+
+Query  5   LGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPIS  64
+           +G VVS +MQKT++VE++ + +HALYGK I    +  VHD  + A +G+ + I  CRP+S
+Sbjct  19  IGYVVSDKMQKTIVVELEDRNQHALYGKTIRTTSKVKVHDENETAGVGDRVRIEECRPLS  78
+
+Query  65  KTKKW  69
+             K +
+Sbjct  79  ANKHF  83
+
+
+>KXB38868.1 30S ribosomal protein S17 [Bacteroidales bacterium KA00344]
+Length=88
+
+ Score = 63.9 bits (154),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 27/64 (42%), Positives = 44/64 (69%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G+V+S +M KT++V  K + KH +YGK + K K+Y  HD + +A +G+ + I   RP+S+
+Sbjct  15  GVVISDKMDKTIVVASKFKEKHPIYGKFVQKTKKYHAHDEKNEAHVGDTVQIMETRPLSR  74
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  75  TKRW  78
+
+
+>EFC53897.1 30S ribosomal protein S17 [Enterobacter cancerogenus ATCC 35316]
+Length=84
+
+ Score = 63.9 bits (154),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 46/69 (67%), Gaps = 0/69 (0%)
+
+Query  1   MKKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTC  60
+           ++ L G VVS +M+K+++V ++  VKH +YGK I +  +  VHD   +  +G+ + IR C
+Sbjct  5   IRTLQGRVVSDKMEKSMVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDKVEIREC  64
+
+Query  61  RPISKTKKW  69
+           RP+SKTK W
+Sbjct  65  RPLSKTKSW  73
+
+
+>KWZ95713.1 30S ribosomal protein S17 [Anaerococcus hydrogenalis]
+Length=86
+
+ Score = 63.9 bits (154),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 27/64 (42%), Positives = 45/64 (70%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G+VVS +M KT+ V+V+T+++H +Y KR+   K+Y  HD   +A +G+ + I   RP++K
+Sbjct  11  GVVVSDKMDKTITVKVETKIQHPVYKKRLKVSKKYKAHDENNEARVGDTVTIMETRPLAK  70
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  71  TKRW  74
+
+
+>OFT38276.1 30S ribosomal protein S17 [Actinomyces sp. HMSC08A01]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 31/64 (48%), Positives = 45/64 (70%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G VVS +M+KTV+VE++ + KHALYGK + K K+   HD   +A +G+ + I   RP+SK
+Sbjct  17  GYVVSDKMEKTVVVELEERSKHALYGKVVTKTKKVKAHDENNEAGIGDYVLIMETRPLSK  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>ERK71993.1 30S ribosomal protein S17 [Leifsonia aquatica ATCC 14665]
+Length=102
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 27/64 (42%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G V S +M KT++VEV+ +VKH LYGK + +  +   HD    A +G+L+ I   RP+S 
+Sbjct  29  GYVTSDKMDKTIVVEVEDRVKHPLYGKVLRRTSKVKAHDENNSAGIGDLVLINETRPLSA  88
+
+Query  66  TKKW  69
+           +K+W
+Sbjct  89  SKRW  92
+
+
+>EGF74901.1 30S ribosomal protein S17 [Propionibacterium acnes HL099PA1]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EGE66968.1 30S ribosomal protein S17 [Propionibacterium acnes HL096PA3]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EGE67013.1 30S ribosomal protein S17 [Propionibacterium acnes HL096PA2]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EGE74452.1 30S ribosomal protein S17 [Propionibacterium acnes HL097PA1]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFS34593.1 30S ribosomal protein S17 [Propionibacterium acnes HL013PA1]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFS39054.1 30S ribosomal protein S17 [Propionibacterium acnes HL074PA1]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFS41325.1 30S ribosomal protein S17 [Propionibacterium acnes HL110PA1]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFS42357.1 30S ribosomal protein S17 [Propionibacterium acnes HL110PA2]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFS47284.1 30S ribosomal protein S17 [Propionibacterium acnes HL087PA2]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFS48090.1 30S ribosomal protein S17 [Propionibacterium acnes HL083PA1]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFS50002.1 30S ribosomal protein S17 [Propionibacterium acnes HL025PA1]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFS54279.1 30S ribosomal protein S17 [Propionibacterium acnes HL059PA1]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFS55724.1 30S ribosomal protein S17 [Propionibacterium acnes HL046PA2]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFS57637.1 30S ribosomal protein S17 [Propionibacterium acnes HL036PA1]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFS61127.1 30S ribosomal protein S17 [Propionibacterium acnes HL036PA2]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFS62599.1 30S ribosomal protein S17 [Propionibacterium acnes HL063PA1]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFS66087.1 30S ribosomal protein S17 [Propionibacterium acnes HL063PA2]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFS67841.1 30S ribosomal protein S17 [Propionibacterium acnes HL007PA1]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFS70316.1 30S ribosomal protein S17 [Propionibacterium acnes HL056PA1]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFS75672.1 30S ribosomal protein S17 [Propionibacterium acnes HL086PA1]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFS78172.1 30S ribosomal protein S17 [Propionibacterium acnes HL005PA4]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFS81492.1 30S ribosomal protein S17 [Propionibacterium acnes HL050PA1]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFS83438.1 30S ribosomal protein S17 [Propionibacterium acnes HL050PA3]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFS89610.1 30S ribosomal protein S17 [Propionibacterium acnes HL036PA3]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFS94029.1 30S ribosomal protein S17 [Propionibacterium acnes HL067PA1]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFT01299.1 30S ribosomal protein S17 [Propionibacterium acnes HL027PA1]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFT01874.1 30S ribosomal protein S17 [Propionibacterium acnes HL002PA1]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFT04960.1 30S ribosomal protein S17 [Propionibacterium acnes HL002PA2]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFT07633.1 30S ribosomal protein S17 [Propionibacterium acnes HL082PA1]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFT13982.1 30S ribosomal protein S17 [Propionibacterium acnes HL037PA1]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFT17120.1 30S ribosomal protein S17 [Propionibacterium acnes HL053PA1]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFT19615.1 30S ribosomal protein S17 [Propionibacterium acnes HL045PA1]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFT23832.1 30S ribosomal protein S17 [Propionibacterium acnes HL072PA2]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFT28988.1 30S ribosomal protein S17 [Propionibacterium acnes HL005PA1]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFT30154.1 30S ribosomal protein S17 [Propionibacterium acnes HL005PA2]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFT32769.1 30S ribosomal protein S17 [Propionibacterium acnes HL005PA3]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFT49223.1 30S ribosomal protein S17 [Propionibacterium acnes HL053PA2]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFT51817.1 30S ribosomal protein S17 [Propionibacterium acnes HL078PA1]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFT55185.1 30S ribosomal protein S17 [Propionibacterium acnes HL027PA2]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFT58813.1 30S ribosomal protein S17 [Propionibacterium acnes HL002PA3]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFT61906.1 30S ribosomal protein S17 [Propionibacterium acnes HL072PA1]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFT68724.1 30S ribosomal protein S17 [Propionibacterium acnes HL038PA1]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFT69952.1 30S ribosomal protein S17 [Propionibacterium acnes HL059PA2]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFT72595.1 30S ribosomal protein S17 [Propionibacterium acnes HL046PA1]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFT78040.1 30S ribosomal protein S17 [Propionibacterium acnes HL030PA1]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFT81199.1 30S ribosomal protein S17 [Propionibacterium acnes HL030PA2]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EGE90663.1 30S ribosomal protein S17 [Propionibacterium acnes HL043PA1]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EGE96017.1 30S ribosomal protein S17 [Propionibacterium acnes HL013PA2]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EGE96063.1 30S ribosomal protein S17 [Propionibacterium acnes HL043PA2]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EGE98084.1 30S ribosomal protein S17 [Propionibacterium acnes HL087PA3]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EGE98249.1 30S ribosomal protein S17 [Propionibacterium acnes HL092PA1]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EGE98536.1 30S ribosomal protein S17 [Propionibacterium acnes HL083PA2]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EGF65712.1 30S ribosomal protein S17 [Propionibacterium acnes HL087PA1]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EGF69124.1 30S ribosomal protein S17 [Propionibacterium acnes HL025PA2]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EGF69908.1 30S ribosomal protein S17 [Propionibacterium acnes HL020PA1]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>OFT20053.1 30S ribosomal protein S17 [Dermabacter sp. HMSC08H10]
+Length=91
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 31/64 (48%), Positives = 46/64 (72%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G VVS +M KT++VEV+ +VKH+LYGK + K K++  HD E  A +G+L+ I   RP+S 
+Sbjct  18  GYVVSDKMDKTIVVEVEERVKHSLYGKVMKKHKKFKAHDEENTAGVGDLVRIMETRPLSA  77
+
+Query  66  TKKW  69
+           +K+W
+Sbjct  78  SKRW  81
+
+
+>OFT47617.1 30S ribosomal protein S17 [Dermabacter sp. HMSC06F07]
+Length=91
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 31/64 (48%), Positives = 46/64 (72%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G VVS +M KT++VEV+ +VKH+LYGK + K K++  HD E  A +G+L+ I   RP+S 
+Sbjct  18  GYVVSDKMDKTIVVEVEERVKHSLYGKVMKKHKKFKAHDEENTAGVGDLVRIMETRPLSA  77
+
+Query  66  TKKW  69
+           +K+W
+Sbjct  78  SKRW  81
+
+
+>EHY32482.1 30S ribosomal protein S17 [Sutterella parvirubra YIT 11816]
+Length=89
+
+ Score = 63.5 bits (153),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 34/66 (52%), Positives = 43/66 (65%), Gaps = 1/66 (2%)
+
+Query  4   LLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPI  63
+           L G V S +MQKTV V V+ +VKH LYGK ++K K+Y  HD E   + G+ + I  C PI
+Sbjct  13  LQGTVTSSKMQKTVTVLVERKVKHPLYGKYVVKSKKYHAHD-ELGCNEGDKVEIAECAPI  71
+
+Query  64  SKTKKW  69
+           SKTK W
+Sbjct  72  SKTKSW  77
+
+
+>EGE68489.1 30S ribosomal protein S17 [Propionibacterium acnes HL103PA1]
+Length=90
+
+ Score = 63.5 bits (153),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFS88007.1 30S ribosomal protein S17 [Propionibacterium acnes HL001PA1]
+Length=90
+
+ Score = 63.5 bits (153),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFT09185.1 30S ribosomal protein S17 [Propionibacterium acnes HL082PA2]
+Length=90
+
+ Score = 63.5 bits (153),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFT26353.1 30S ribosomal protein S17 [Propionibacterium acnes HL110PA3]
+Length=90
+
+ Score = 63.5 bits (153),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFT62423.1 30S ribosomal protein S17 [Propionibacterium acnes HL110PA4]
+Length=90
+
+ Score = 63.5 bits (153),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFT65658.1 30S ribosomal protein S17 [Propionibacterium acnes HL060PA1]
+Length=90
+
+ Score = 63.5 bits (153),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFT75952.1 30S ribosomal protein S17 [Propionibacterium acnes HL050PA2]
+Length=90
+
+ Score = 63.5 bits (153),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVMVEDRVKHPLYGKVMTKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>OFT31684.1 30S ribosomal protein S17 [Corynebacterium sp. HMSC08F01]
+Length=94
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/68 (44%), Positives = 42/68 (62%), Gaps = 0/68 (0%)
+
+Query  2   KKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCR  61
+           K+  G VVS +M KT++VEV+ +  HALYGK +   KR   HD    A +G+L+ I   R
+Sbjct  17  KRRRGYVVSDKMDKTIVVEVEDRKSHALYGKIVRTTKRVKAHDENNTAGVGDLVHIEETR  76
+
+Query  62  PISKTKKW  69
+           P+SK K +
+Sbjct  77  PLSKDKHF  84
+
+
+>OFT68833.1 30S ribosomal protein S17 [Corynebacterium sp. HMSC05C01]
+Length=94
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/68 (44%), Positives = 42/68 (62%), Gaps = 0/68 (0%)
+
+Query  2   KKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCR  61
+           K+  G VVS +M KT++VEV+ +  HALYGK +   KR   HD    A +G+L+ I   R
+Sbjct  17  KRRRGYVVSDKMDKTIVVEVEDRKSHALYGKIVRTTKRVKAHDENNTAGVGDLVHIEETR  76
+
+Query  62  PISKTKKW  69
+           P+SK K +
+Sbjct  77  PLSKDKHF  84
+
+
+>OFU57459.1 30S ribosomal protein S17 [Corynebacterium sp. HMSC11D10]
+Length=94
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/68 (44%), Positives = 42/68 (62%), Gaps = 0/68 (0%)
+
+Query  2   KKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCR  61
+           K+  G VVS +M KT++VEV+ +  HALYGK +   KR   HD    A +G+L+ I   R
+Sbjct  17  KRRRGYVVSDKMDKTIVVEVEDRKSHALYGKIVRTTKRVKAHDENNTAGVGDLVHIEETR  76
+
+Query  62  PISKTKKW  69
+           P+SK K +
+Sbjct  77  PLSKDKHF  84
+
+
+>ERH17589.1 30S ribosomal protein S17 [Actinomyces graevenitzii F0530]
+Length=93
+
+ Score = 63.5 bits (153),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 43/64 (67%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G VVS +M KTV+V V+ + KH+LYGK + + K+  VHD    A +G+L+ I   RP+S 
+Sbjct  20  GYVVSDKMDKTVVVLVEERYKHSLYGKVLRRSKKVKVHDEANSAHVGDLVSIMETRPLSA  79
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  80  TKRW  83
+
+
+>EDN83664.1 30S ribosomal protein S17 [Bifidobacterium adolescentis L2-32]
+Length=86
+
+ Score = 63.2 bits (152),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 30/68 (44%), Positives = 43/68 (63%), Gaps = 0/68 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G VVS +M KT+ VE++ +  H LYGK +   +   VHD   +A +G+L+ I   RP+SK
+Sbjct  13  GYVVSDKMDKTISVELEQRSTHPLYGKVVRSTRTVKVHDEHNEAHIGDLVSIMETRPLSK  72
+
+Query  66  TKKWIYDS  73
+           TK+W  DS
+Sbjct  73  TKRWRLDS  80
+
+
+>EEB20881.1 30S ribosomal protein S17 [Bifidobacterium catenulatum DSM 16992 
+= JCM 1194 = LMG 11043]
+Length=86
+
+ Score = 63.2 bits (152),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 30/68 (44%), Positives = 43/68 (63%), Gaps = 0/68 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G VVS +M KT+ VE++ +  H LYGK +   +   VHD   +A +G+L+ I   RP+SK
+Sbjct  13  GYVVSDKMDKTISVELEQRSTHPLYGKVVRSTRTVKVHDEHNEAHIGDLVSIMETRPLSK  72
+
+Query  66  TKKWIYDS  73
+           TK+W  DS
+Sbjct  73  TKRWRLDS  80
+
+
+>EEG71734.1 30S ribosomal protein S17 [Bifidobacterium pseudocatenulatum 
+DSM 20438 = JCM 1200 = LMG 10505]
+Length=86
+
+ Score = 63.2 bits (152),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 30/68 (44%), Positives = 43/68 (63%), Gaps = 0/68 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G VVS +M KT+ VE++ +  H LYGK +   +   VHD   +A +G+L+ I   RP+SK
+Sbjct  13  GYVVSDKMDKTISVELEQRSTHPLYGKVVRSTRTVKVHDEHNEAHIGDLVSIMETRPLSK  72
+
+Query  66  TKKWIYDS  73
+           TK+W  DS
+Sbjct  73  TKRWRLDS  80
+
+
+>OFT57312.1 30S ribosomal protein S17 [Corynebacterium sp. HMSC05H05]
+Length=94
+
+ Score = 63.5 bits (153),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 30/68 (44%), Positives = 42/68 (62%), Gaps = 0/68 (0%)
+
+Query  2   KKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCR  61
+           K+  G VVS +M KT++VEV+ +  HALYGK +    R   HD E  A +G+L+ I   R
+Sbjct  17  KRRRGYVVSDKMDKTIVVEVEDRKSHALYGKIVRTTNRVKAHDEENIAGVGDLVLIEETR  76
+
+Query  62  PISKTKKW  69
+           P+SK K +
+Sbjct  77  PLSKDKHF  84
+
+
+>KWZ73213.1 30S ribosomal protein S17 [Actinomyces neuii]
+Length=90
+
+ Score = 63.5 bits (153),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 31/64 (48%), Positives = 45/64 (70%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G VVS +M KTV+VE++ + KHALYGK + K K+   HD + +A +G+ + I   RP+SK
+Sbjct  17  GYVVSDKMDKTVVVELEERSKHALYGKVVTKTKKVKAHDEQNEAGVGDYVLIMETRPLSK  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>OFT55730.1 30S ribosomal protein S17 [Actinomyces sp. HMSC06A08]
+Length=90
+
+ Score = 63.5 bits (153),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 31/64 (48%), Positives = 45/64 (70%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G VVS +M KTV+VE++ + KHALYGK + K K+   HD + +A +G+ + I   RP+SK
+Sbjct  17  GYVVSDKMDKTVVVELEERSKHALYGKVVTKTKKVKAHDEQNEAGVGDYVLIMETRPLSK  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EEB22780.1 30S ribosomal protein S17 [Bacteroides dorei DSM 17855]
+Length=88
+
+ Score = 63.2 bits (152),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 29/68 (43%), Positives = 45/68 (66%), Gaps = 0/68 (0%)
+
+Query  2   KKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCR  61
+           K+  G+VVS +M KT+ V  K + KH +YGK + K K+Y  HD + + ++G+ + I   R
+Sbjct  11  KERTGVVVSNKMDKTITVAAKFKEKHPIYGKFVSKTKKYHAHDEKNECNVGDTVHIMETR  70
+
+Query  62  PISKTKKW  69
+           P+SKTK+W
+Sbjct  71  PLSKTKRW  78
+
+
+>EEF89617.1 30S ribosomal protein S17 [Bacteroides cellulosilyticus DSM 14838]
+Length=89
+
+ Score = 63.2 bits (152),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 28/68 (41%), Positives = 46/68 (68%), Gaps = 0/68 (0%)
+
+Query  2   KKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCR  61
+           K+  G+V+S +M+KT+ V  K + KH +YGK + K K+Y  HD + + ++G+ + I   R
+Sbjct  12  KERTGVVLSNKMEKTITVAAKFKEKHPIYGKFVSKTKKYHAHDEKNECNIGDTVLIMETR  71
+
+Query  62  PISKTKKW  69
+           P+SKTK+W
+Sbjct  72  PLSKTKRW  79
+
+
+>KXT45749.1 30S ribosomal protein S17 [Bacteroides intestinalis]
+Length=89
+
+ Score = 63.2 bits (152),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 28/68 (41%), Positives = 46/68 (68%), Gaps = 0/68 (0%)
+
+Query  2   KKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCR  61
+           K+  G+V+S +M+KT+ V  K + KH +YGK + K K+Y  HD + + ++G+ + I   R
+Sbjct  12  KERTGVVLSNKMEKTITVAAKFKEKHPIYGKFVSKTKKYHAHDEKNECNIGDTVLIMETR  71
+
+Query  62  PISKTKKW  69
+           P+SKTK+W
+Sbjct  72  PLSKTKRW  79
+
+
+>ANY19804.1 30S ribosomal protein S17 [Altererythrobacter dongtanensis]
+Length=96
+
+ Score = 63.2 bits (152),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 32/66 (48%), Positives = 42/66 (64%), Gaps = 0/66 (0%)
+
+Query  4   LLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPI  63
+           L+G VVS +  KTV V V+ +VKH LYGK I + K+Y  HD   +   G+++ I   RPI
+Sbjct  6   LIGTVVSDKTDKTVTVLVERKVKHPLYGKIIRRSKKYHAHDEGNEYKPGDVVRIEETRPI  65
+
+Query  64  SKTKKW  69
+           SKTK W
+Sbjct  66  SKTKTW  71
+
+
+>KXA65787.1 30S ribosomal protein S17 [Cutibacterium avidum]
+Length=90
+
+ Score = 63.2 bits (152),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 42/64 (66%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD + +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMDKTITVLVEDRVKHPLYGKVMTKSVRLKAHDEKNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>OFU52637.1 30S ribosomal protein S17 [Corynebacterium sp. HMSC11E11]
+Length=92
+
+ Score = 63.2 bits (152),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 27/64 (42%), Positives = 43/64 (67%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G VVS +MQKT++VE++ + +HALYGK +    +   HD  ++A +G+ + I  CRP+SK
+Sbjct  19  GYVVSDKMQKTIVVELEDRKQHALYGKIMRTNSKVKAHDENEEAGVGDRVRIEECRPLSK  78
+
+Query  66  TKKW  69
+            K +
+Sbjct  79  DKHF  82
+
+
+>OFS28507.1 30S ribosomal protein S17 [Achromobacter sp. HMSC18C08]
+Length=93
+
+ Score = 63.2 bits (152),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 29/68 (43%), Positives = 45/68 (66%), Gaps = 0/68 (0%)
+
+Query  2   KKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCR  61
+           + L+G VVS +M KTV+V V+ +VKH ++GK IM+  +Y  HD   + + G+ + I   R
+Sbjct  14  RTLVGKVVSNKMDKTVVVLVERRVKHPIFGKIIMRSAKYKAHDESNQYNEGDTVEIAEGR  73
+
+Query  62  PISKTKKW  69
+           PIS++K W
+Sbjct  74  PISRSKSW  81
+
+
+>OFU62310.1 30S ribosomal protein S17 [Achromobacter sp. HMSC15D03]
+Length=93
+
+ Score = 63.2 bits (152),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 29/68 (43%), Positives = 45/68 (66%), Gaps = 0/68 (0%)
+
+Query  2   KKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCR  61
+           + L+G VVS +M KTV+V V+ +VKH ++GK IM+  +Y  HD   + + G+ + I   R
+Sbjct  14  RTLVGKVVSNKMDKTVVVLVERRVKHPIFGKIIMRSAKYKAHDESNQYNEGDTVEIAEGR  73
+
+Query  62  PISKTKKW  69
+           PIS++K W
+Sbjct  74  PISRSKSW  81
+
+
+>AJA84621.1 30S ribosomal protein S17 [Bacillus anthracis]
+Length=87
+
+ Score = 62.8 bits (151),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 29/64 (45%), Positives = 43/64 (67%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G VVS +M KT+ V V+T   H+LYGKR+   K+Y  HD + +A LG+++ I   RP+S 
+Sbjct  12  GRVVSDKMDKTITVLVETYKTHSLYGKRVKYSKKYKAHDEQNQAKLGDIVKIMETRPLSA  71
+
+Query  66  TKKW  69
+           TK++
+Sbjct  72  TKRF  75
+
+
+>AJF87970.1 30S ribosomal protein S17 [Bacillus anthracis]
+Length=87
+
+ Score = 62.8 bits (151),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 29/64 (45%), Positives = 43/64 (67%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G VVS +M KT+ V V+T   H+LYGKR+   K+Y  HD + +A LG+++ I   RP+S 
+Sbjct  12  GRVVSDKMDKTITVLVETYKTHSLYGKRVKYSKKYKAHDEQNQAKLGDIVKIMETRPLSA  71
+
+Query  66  TKKW  69
+           TK++
+Sbjct  72  TKRF  75
+
+
+>EEF68474.1 30S ribosomal protein S17 [Holdemania filiformis DSM 12042]
+Length=86
+
+ Score = 62.8 bits (151),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 31/68 (46%), Positives = 42/68 (62%), Gaps = 0/68 (0%)
+
+Query  2   KKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCR  61
+           K L G VVS +M KT+ VEV T   H LY KRI   K++  HD   +A LG+++ I   R
+Sbjct  7   KVLRGKVVSDKMDKTITVEVATSKSHPLYSKRIKYSKKFKAHDENNEAKLGDIVEIMETR  66
+
+Query  62  PISKTKKW  69
+           P+S TK++
+Sbjct  67  PLSATKRF  74
+
+
+>OFU80861.1 30S ribosomal protein S17 [Staphylococcus sp. HMSC10C03]
+Length=87
+
+ Score = 62.8 bits (151),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 30/65 (46%), Positives = 42/65 (65%), Gaps = 0/65 (0%)
+
+Query  5   LGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPIS  64
+           +G VVS +M KTV V V+T   H LYGKR+   K+Y  HD    A LG+++ I+  RP+S
+Sbjct  11  VGRVVSDKMDKTVTVLVETYKTHKLYGKRVKYSKKYKTHDENNSAKLGDIVKIQETRPLS  70
+
+Query  65  KTKKW  69
+            TK++
+Sbjct  71  ATKRF  75
+
+
+>OFV08031.1 30S ribosomal protein S17 [Staphylococcus sp. HMSC12H08]
+Length=87
+
+ Score = 62.8 bits (151),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 30/65 (46%), Positives = 42/65 (65%), Gaps = 0/65 (0%)
+
+Query  5   LGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPIS  64
+           +G VVS +M KTV V V+T   H LYGKR+   K+Y  HD    A LG+++ I+  RP+S
+Sbjct  11  VGRVVSDKMDKTVTVLVETYKTHKLYGKRVKYSKKYKTHDENNSAKLGDIVKIQETRPLS  70
+
+Query  65  KTKKW  69
+            TK++
+Sbjct  71  ATKRF  75
+
+
+>OFT69129.1 30S ribosomal protein S17 [Corynebacterium sp. HMSC14B06]
+Length=92
+
+ Score = 62.8 bits (151),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 27/64 (42%), Positives = 43/64 (67%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G VVS +MQKT++VE++ + +HALYGK +    +   HD  ++A +G+ + I  CRP+SK
+Sbjct  19  GYVVSDKMQKTIVVELEDRKQHALYGKIMRTNSKVKAHDENEEAGVGDRVRIEECRPLSK  78
+
+Query  66  TKKW  69
+            K +
+Sbjct  79  DKHY  82
+
+
+>OFU55918.1 30S ribosomal protein S17 [Corynebacterium sp. HMSC11H10]
+Length=92
+
+ Score = 62.8 bits (151),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 27/64 (42%), Positives = 43/64 (67%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G VVS +MQKT++VE++ + +HALYGK +    +   HD  ++A +G+ + I  CRP+SK
+Sbjct  19  GYVVSDKMQKTIVVELEDRKQHALYGKIMRTNSKVKAHDENEEAGVGDRVRIEECRPLSK  78
+
+Query  66  TKKW  69
+            K +
+Sbjct  79  DKHY  82
+
+
+>OFU62161.1 30S ribosomal protein S17 [Corynebacterium sp. HMSC14H10]
+Length=92
+
+ Score = 62.8 bits (151),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 27/64 (42%), Positives = 43/64 (67%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           G VVS +MQKT++VE++ + +HALYGK +    +   HD  ++A +G+ + I  CRP+SK
+Sbjct  19  GYVVSDKMQKTIVVELEDRKQHALYGKIMRTNSKVKAHDENEEAGVGDRVRIEECRPLSK  78
+
+Query  66  TKKW  69
+            K +
+Sbjct  79  DKHY  82
+
+
+>EEC52587.1 30S ribosomal protein S17 [Bacteroides eggerthii DSM 20697]
+Length=89
+
+ Score = 62.8 bits (151),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 28/68 (41%), Positives = 45/68 (66%), Gaps = 0/68 (0%)
+
+Query  2   KKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCR  61
+           K+  G+V+S +M KT+ V  K + KH +YGK + K K+Y  HD + + ++G+ + I   R
+Sbjct  12  KERTGIVLSNKMDKTITVAAKFKEKHPIYGKFVSKTKKYHAHDEKNECNIGDTVHIMETR  71
+
+Query  62  PISKTKKW  69
+           P+SKTK+W
+Sbjct  72  PLSKTKRW  79
+
+
+>EFS73744.1 30S ribosomal protein S17 [[Propionibacterium] humerusii HL037PA2]
+Length=90
+
+ Score = 62.8 bits (151),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVLVEDRVKHPLYGKVMKKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFS93400.1 30S ribosomal protein S17 [[Propionibacterium] humerusii HL044PA1]
+Length=90
+
+ Score = 62.8 bits (151),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVLVEDRVKHPLYGKVMKKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EFT14644.1 30S ribosomal protein S17 [[Propionibacterium] humerusii HL037PA3]
+Length=90
+
+ Score = 62.8 bits (151),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  6   GLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCRPISK  65
+           GLVVS +M KT+ V V+ +VKH LYGK + K  R   HD   +A +G+ + I   RP+S 
+Sbjct  17  GLVVSDKMNKTITVLVEDRVKHPLYGKVMKKSVRLKAHDENNEAGMGDRVRIMETRPLSA  76
+
+Query  66  TKKW  69
+           TK+W
+Sbjct  77  TKRW  80
+
+
+>EGF57261.1 30S ribosomal protein S17 [Bacteroides fluxus YIT 12057]
+Length=89
+
+ Score = 62.8 bits (151),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 28/68 (41%), Positives = 46/68 (68%), Gaps = 0/68 (0%)
+
+Query  2   KKLLGLVVSCRMQKTVIVEVKTQVKHALYGKRIMKKKRYAVHDPEKKASLGELIWIRTCR  61
+           K+  G+V+S +M+KT+ V  K + KH +YGK + K K+Y  HD + + ++G+ + I   R
+Sbjct  12  KERTGVVLSNKMEKTITVAAKFKEKHPIYGKFVSKTKKYHAHDEKNECNIGDTVRIMETR  71
+
+Query  62  PISKTKKW  69
+           P+SKTK+W
+Sbjct  72  PLSKTKRW  79
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.129    0.377    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 20551487880
+
+
+  Database: nr.txt
+    Posted date:  Apr 6, 2017  4:16 AM
+  Number of letters in database: 824,552,492
+  Number of sequences in database:  2,682,748
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
