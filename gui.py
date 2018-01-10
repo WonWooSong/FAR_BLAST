@@ -3,11 +3,19 @@
 __author__ = 'Won Woo Song'
 __version__ = '1.0'
 
+import os
+
 from tkinter import *
 import tkinter as tk
+import subprocess
 from tkinter import messagebox
 from PIL import ImageTk, Image
+from threading import Thread
 from Components.Options import Options
+from Components.FARlocalBLAST import FARlocalBLAST
+from Components.FARremoteBLAST import FARremoteBLAST
+from Components.LocalForwardBLAST import LocalForwardBLAST
+from Components.RemoteForwardBLAST import RemoteForwardBLAST
 
 class Display:
     def __init__(self, master):
@@ -17,7 +25,7 @@ class Display:
         self.options = Options()
 
         # default entry values
-        self.defaultQueryFamily = StringVar(master, value = 'Cyanidioschyzon_Merola')
+        self.defaultQueryFamily = StringVar(master, value = 'Cyanidioschyzon_Merolae')
         self.defaultQueryFile = StringVar(master, value = 'Q85FV4.1')
         self.defaultSubject = StringVar(master, value = 'nr')
         self.defaultOutputName = StringVar(master, value = 'test')
@@ -69,8 +77,9 @@ class Display:
         self.inputReverseTopHits = self.reverseTopHits.get()
 
         # button for BLAST
-        Button(master, text="Forward BLAST", command=self.forwardBlastButton).grid(row=9, column=1)
+        Button(master, text="Forward BLAST", command=self.localForwardBlast).grid(row=9, column=1)
         Button(master, text="FAR BLAST", command=self.FarBlastButton).grid(row=9, column=2)
+
 
     def localRadioOption(self):
         messagebox.showinfo("hello", "hello")
@@ -82,11 +91,59 @@ class Display:
         self.options = Options
         self.options
 
-    def forwardBlastButton(self):
-        messagebox.showinfo("Forward BLAST", self.hi)
 
+    # method for the forward BLAST Button
+    def forwardBlastButton(self):
+        LocalForwardBLAST()
+
+    # method for the FAR BLAST Button
     def FarBlastButton(self):
         messagebox.showinfo("FAR BLAST", "Please wait for FAR BLAST to finish")
+
+    def localForwardBlast(self):
+        remote_database = 'makeblastdb -in DataBase/' + self.inputQueryFamily + '.txt -parse_seqids -dbtype prot -out DataBase/' + self.inputQueryFamily
+        #remote_database = 'makeblastdb -in DataBase/' + self.inputQueryFamily + '.txt -parse_seqids -dbtype prot -out DataBase/' + self.inputQueryFamily
+        # print (remote_database)
+        #t1 = Thread(os.system(remote_database))
+        #os.system(remote_database)
+
+        remote_databaseCmd = 'blastdbcmd -db DataBase/' + self.inputQueryFamily + ' -dbtype prot -entry ' + self.inputQueryFile + ' -out DataBase/' + self.inputQueryFile + '.txt'
+        #t2 = Thread(os.system(remote_databaseCmd))
+        #os.system(remote_databaseCmd)
+
+        remote_test = "makeblastdb -in DataBase/" + self.inputQueryFile + ".txt -out Database/" + self.inputQueryFile + " -parse_seqids -dbtype prot"
+        #t3 = Thread(os.system(remote_test))
+        #os.system(remote_test)
+
+
+        #forwardBlastTest = 'blastp -query DataBase/' + self.inputQueryFile + '.txt -db DataBase/' + self.inputSubjectFile + ' -evalue ' + self.inputEvalue + ' -out ' + self.inputOutputName
+
+        #forwardBlastTest = 'blastp -query DataBase/' + self.inputQueryFile + '.txt -db DataBase/' + self.inputSubjectFile + ' -evalue ' + self.inputEvalue + ' -out ' + self.inputOutputName + '_Full_Version.txt'
+        #os.system(forwardBlastTest)
+
+        #forwardTopHits = "blastp -query DataBase/" + self.inputQueryFile + ".txt -db DataBase/" + self.inputSubjectFile + " -evalue " + self.inputEvalue + " -max_target_seqs " + self.inputOutputName + " -outfmt \"6 sacc \" -out " + self.inputOutputName + '_TopHits.txt'
+        #os.system(forwardTopHits)
+
+        os.system(remote_database)
+        #os.wait(5)
+        #os.system(remote_databaseCmd)
+        #os.wait(5)
+        #os.system(remote_test)
+
+        #os.wait(5)
+        #os.system(forwardBlastTest)
+        #os.wait(5)
+        #os.system(forwardTopHits)
+
+        '''
+        #t1.start()
+        t2.start()
+        t3.start()
+        #t1.join()
+        t2.join()
+        t3.join()
+        '''
+
 
 root = Tk()
 root.title("FAR BLAST")
